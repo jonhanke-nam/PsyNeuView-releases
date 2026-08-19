@@ -12,7 +12,7 @@
             <sparkle:version>0.4.9</sparkle:version>
             <sparkle:shortVersionString>0.4.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-MacApp/releases/download/v0.4.9/PsyNeuView-0.4.9.dmg"
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.4.9/PsyNeuView-0.4.9.dmg"
                        length="1480575"
                        type="application/octet-stream"
                        sparkle:edSignature="c0n1GUEMtekX3vV3vmQV2RzYQJl984K2Tl1A21N2CmB6aYQGTns/4kEN9FJaCLT6+TxUnEUxJDgkVLpu8r5pAg==" />
