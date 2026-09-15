@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.6</title>
+            <description><![CDATA[
+<p>Fixes for problems found by people actually installing and using 0.5.2–0.5.5.</p>
+<p>Your saved models are safe Models saved into the app&#x27;s models/ folder could be destroyed by the app&#x27;s own cleanup, because that folder lived inside storage the app deletes and recreates. They now live in ~/.psyneuview/models, outside anything the app removes, and existing models are rescued on first launch rather than left where they were. (#1089)</p>
+<p>Faster first install PsyNeuLink was being downloaded and installed twice: once from PyPI as a dependency of the backend, then immediately replaced by the copy from the branch you actually chose. The chosen source is now installed first, and the backend install leaves it alone. (#115)</p>
+<p>No more phantom second app A development build left in the source folder could appear in Launchpad and Spotlight beside your real install — and being an older build, it behaved like the app did before it bundled its own Python. Builds now go somewhere Spotlight does not index. This only affected people who build from source. (#118)</p>
+<p>PsyNeuLink no longer goes quietly stale The app installs PsyNeuLink from the Princeton devel branch, but pinned it at install time and never mentioned it again — one install was running a PsyNeuLink older than the current PyPI release while reporting &quot;devel&quot;. Settings now shows how far behind it is, and the app offers to refresh it at launch. It offers rather than acting: you decide, and you can say &quot;don&#x27;t ask again&quot;. The check never delays startup, and if it cannot reach GitHub it says so rather than pretending everything is current. (#116)</p>
+<p>Also The release-freshness check was counting commits against a dormant branch, so it reported &quot;up to date&quot; while eight commits sat unreleased.</p>
+            ]]></description>
+            <pubDate>Tue, 15 Sep 2026 23:34:06 +0000</pubDate>
+            <sparkle:version>0.5.6</sparkle:version>
+            <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.6/PsyNeuView-0.5.6.dmg"
+                       length="51231516"
+                       type="application/octet-stream"
+                       sparkle:edSignature="tVfgcBfWcsLziILCyDm3nH7vKdivnB8W+srwPnbXVueOwKUDFAOr1R7CDohLtdl1it5H6mRTu/fADDNjNRIBBw==" />
+        </item>
+        <item>
             <title>Version 0.5.5</title>
             <description><![CDATA[
 <p>Launcher-only release; the bundled PsyNeuView stays at 0.5.0.</p>
