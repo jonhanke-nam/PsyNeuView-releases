@@ -7,6 +7,17 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.3</title>
+            <pubDate>Tue, 15 Sep 2026 15:12:46 +0000</pubDate>
+            <sparkle:version>0.5.3</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.3/PsyNeuView-0.5.3.dmg"
+                       length="51221317"
+                       type="application/octet-stream"
+                       sparkle:edSignature="xoI4PIY+++m2gUau7ITyfuX0buwOBDnWgo09q295zUrtC8zUjL1HJL1fixdCcx//cCZnNl96QRnrot9X52itDg==" />
+        </item>
+        <item>
             <title>Version 0.5.2</title>
             <pubDate>Tue, 15 Sep 2026 14:33:00 +0000</pubDate>
             <sparkle:version>0.5.2</sparkle:version>
