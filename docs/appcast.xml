@@ -9,7 +9,23 @@
         <item>
             <title>Version 0.5.5</title>
             <description><![CDATA[
-<p>Take release notes from the tag message</p>
+<p>Launcher-only release; the bundled PsyNeuView stays at 0.5.0.</p>
+<p>Two people hit install failures today and neither could get out of it unaided. This release is mostly about the app getting itself out of trouble, and about saying what is happening while it does.</p>
+<ul>
+<li>A missing Python environment is rebuilt rather than reported. One install found its files intact, found no environment, wrote &quot;run the Setup Wizard&quot; to a log nobody had reason to open, and stopped — pointing at a menu item rather than anything on screen. Building that environment is what setup does, so the app now just does it. Reported by Younes Strittmatter.</li>
+</ul>
+<ul>
+<li>PsyNeuView offers to move itself to your Applications folder when you launch it from somewhere else. Its Python environment records where the app lives, so running from a disk image or your Downloads folder and moving the app later strands about 1.4 GB and breaks the install days after the fact.</li>
+</ul>
+<ul>
+<li>A diagnostic ships with the app, at Contents/Resources/diagnose-install.sh, and is published at jonhanke-nam.github.io/PsyNeuView-releases/diagnose-install.sh. If something goes wrong it reports which build you have, where it is running from, and whether the Python environment survived.</li>
+</ul>
+<ul>
+<li>Releases now say what is in them. These notes appear on the download page and in the update dialog, which previously offered a version number and no reason to install it.</li>
+</ul>
+<ul>
+<li>The release process now measures how long starting actually takes and refuses to publish if it approaches the limit the app allows — the failure Samuel Anderson reported on 0.5.3 would have been caught before it shipped.</li>
+</ul>
             ]]></description>
             <pubDate>Tue, 15 Sep 2026 17:57:07 +0000</pubDate>
             <sparkle:version>0.5.5</sparkle:version>
