@@ -7,6 +7,30 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.10</title>
+            <description><![CDATA[
+<p>A crash fix that matters if you run the app from the disk image, and a handful of changes to Settings and setup.</p>
+<p>Crash when declining to move the app If you ran PsyNeuView from somewhere other than your Applications folder — straight from the mounted disk image, say — the app asked whether to move itself. Answering &quot;Continue Without Moving&quot; quit the app instantly.</p>
+<p>It now continues, as it always should have. Anyone who hit this and assumed the app was broken can try again.</p>
+<p>The About window It is a real window now: drag to resize, pinch to zoom, or use Command-plus and Command-minus, with Command-zero to reset. The size you choose is remembered.</p>
+<p>The text is also simply larger, which was the original complaint.</p>
+<p>Choosing which PsyNeuLink to use Setup now asks, instead of only offering the choice afterwards: the latest development version, the official release, or a checkout you already have. Ignoring the question gives you what you got before.</p>
+<p>After setup, the source can be changed from either Settings window — the app&#x27;s own, or the gear icon inside PsyNeuView. Previously the gear icon refused and sent you to the app&#x27;s Preferences; worse, a choice made in one place could be silently undone by the other later.</p>
+<p>Changing it in the app&#x27;s Settings now applies immediately. It used to save the setting and do nothing until an update happened to run, which for some changes meant never.</p>
+<p>How old your PsyNeuLink is Settings showed the branch name and nothing else, which reads as current however far behind the installed copy has drifted. It now says, for example, &quot;111 commits behind devel, newest from 2026-07-29&quot;.</p>
+<p>It also reports whether PsyNeuLink still works rather than only what version it claims to be — an install pointed at a folder you have since moved looks healthy by version alone.</p>
+<p>Installing into a folder that is not empty Setup warns before installing into a folder that already has your files in it, rather than only recognising its own previous installs.</p>
+            ]]></description>
+            <pubDate>Wed, 16 Sep 2026 20:19:30 +0000</pubDate>
+            <sparkle:version>0.5.10</sparkle:version>
+            <sparkle:shortVersionString>0.5.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.10/PsyNeuView-0.5.10.dmg"
+                       length="51393568"
+                       type="application/octet-stream"
+                       sparkle:edSignature="XZ1c9vwC9VRNJjHNQwOs6V8xa7sauC1YlCmbVzvb3QvZaGeN48h2Dn1iaFDn0lTqne8r1BrauaNtjjhL08i3Ag==" />
+        </item>
+        <item>
             <title>Version 0.5.9</title>
             <description><![CDATA[
 <p>Mostly about finding your way around, plus a fix for models the canvas would not edit.</p>
