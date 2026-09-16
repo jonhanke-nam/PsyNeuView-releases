@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.7</title>
+            <description><![CDATA[
+<p>Brings the app up to PsyNeuView 0.5.1. Everything Samuel Anderson and Jon Cohen reported is in this build — 0.5.6 fixed the installer and the app shell, but bundled a PsyNeuView from before that work landed.</p>
+<p>Graph edits reach the file Deleting a node could silently do nothing: the file came back unchanged and was reported as saved, so the canvas showed an edit the file never received. It now refuses and explains why. Each action in History shows how it changed the code, and an edit that changed nothing says so.</p>
+<p>Errors you can act on Click a model error to jump to the line it happened on, from either the editor banner or the graph. A failed run reports the reason it failed instead of a wall of warnings, with the warnings still available behind a toggle. A successful run now shows what PsyNeuLink said about the model, which previously you only ever saw by accident.</p>
+<p>Your model file is safe from us A parenthesis inside a comment could throw off the code writers and leave a file that no longer parses. Beyond fixing that, every edit PsyNeuView composes is now checked before it lands: if it would produce invalid Python the write is refused and the file is left exactly as it was.</p>
+<p>Opening a model A model that calls show_graph() no longer renders a PDF and throws it over the app.</p>
+<p>Undo Undo no longer walks back into a previously loaded model, and no longer discards your layout along with the edit.</p>
+<p>Keyboard shortcuts Cmd+I shows the Inspector. Settings lists every shortcut and lets you rebind them; a combination already in use is refused by name rather than quietly failing later.</p>
+<p>Also in this release The Mac menu no longer binds Cmd+X to Stop Services or Cmd+S to Start Services, and there is a proper Edit menu with Cut, Copy, Paste and Select All.</p>
+            ]]></description>
+            <pubDate>Wed, 16 Sep 2026 01:27:29 +0000</pubDate>
+            <sparkle:version>0.5.7</sparkle:version>
+            <sparkle:shortVersionString>0.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.7/PsyNeuView-0.5.7.dmg"
+                       length="51261712"
+                       type="application/octet-stream"
+                       sparkle:edSignature="aptQZg3IhoQMnQ4mEFIPT46GgT6hZ647at6loNYxcXdLw2jAg6Qd8sK0lNn/91M7s0WuduRCDYVH8VQIydbGCQ==" />
+        </item>
+        <item>
             <title>Version 0.5.6</title>
             <description><![CDATA[
 <p>Fixes for problems found by people actually installing and using 0.5.2–0.5.5.</p>
