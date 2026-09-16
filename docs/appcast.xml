@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.8</title>
+            <description><![CDATA[
+<p>Two changes, both about the canvas editing your model file.</p>
+<p>View only A model can now be marked view only, and then the graph cannot change it. The setting travels with the model rather than with you, so a model set up for teaching or shared with someone stays locked when they open it. Use the editable / view only button in the toolbar, beside the format badge.</p>
+<p>The code editor is unaffected. This is about the graph as a way of changing the model, not about making the file read-only — you can still edit the code of a view-only model.</p>
+<p>Where a new node gets written Adding a node from the canvas used to append the new declaration at the end of the file. Usually harmless, occasionally wrong: on a file ending inside an indented block it produced invalid Python, and even when it worked, the node landed after the Composition that used it.</p>
+<p>New nodes now go just before the Composition. A related fault is fixed too: any comment containing the word &quot;Mechanisms&quot; was being treated as a section heading, including one inside a function, which could put a new node in the middle of an existing call.</p>
+<p>Checked against PsyNeuLink&#x27;s own example scripts as well as the bundled models: adding a node now works on all 103 tested, and lands in a sensible place in every one.</p>
+            ]]></description>
+            <pubDate>Wed, 16 Sep 2026 03:32:21 +0000</pubDate>
+            <sparkle:version>0.5.8</sparkle:version>
+            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.8/PsyNeuView-0.5.8.dmg"
+                       length="51270573"
+                       type="application/octet-stream"
+                       sparkle:edSignature="XXnRjz5ZB7txyJd8n0xpce1HC3QUqqwLmKMLf9WuMMKAPRtSzCgDQJSG6JnhZVGYVQHfCbd/fhV9OKdSa5mSDQ==" />
+        </item>
+        <item>
             <title>Version 0.5.7</title>
             <description><![CDATA[
 <p>Brings the app up to PsyNeuView 0.5.1. Everything Samuel Anderson and Jon Cohen reported is in this build — 0.5.6 fixed the installer and the app shell, but bundled a PsyNeuView from before that work landed.</p>
