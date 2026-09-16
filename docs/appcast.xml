@@ -7,6 +7,32 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.9</title>
+            <description><![CDATA[
+<p>Mostly about finding your way around, plus a fix for models the canvas would not edit.</p>
+<p>Models that could not be edited, now can Some models could not be edited from the canvas at all. Clicking a node and changing it did nothing, or refused, and there was no obvious reason why — the model looked ordinary and the code was fine.</p>
+<p>The cause was narrow and entirely ours. PsyNeuView recognised a node only when it was written with the pnl. prefix:</p>
+<p>hidden = pnl.TransferMechanism(name=&quot;hidden&quot;)</p>
+<p>Written any other ordinary way — a bare constructor after &quot;from psyneulink import *&quot;, a different module alias, a submodule path — the node was invisible to the editor, even though everything else about it worked.</p>
+<p>Measured across the bundled models and PsyNeuLink&#x27;s own example scripts, 80 of 160 files contained nodes hidden this way. Several contained nothing but: the canvas could not address a single node in them.</p>
+<p>If you tried to edit a model, found it unresponsive, and concluded it was unsupported — it probably was not. Worth another look.</p>
+<p>Saying which nodes cannot be edited, and why A few nodes genuinely cannot be changed from the graph, and the app used to imply it without saying so: the diagnostics bar would report &quot;5 mechanisms — 4 editable&quot; and never name the fifth.</p>
+<p>Now it names it, and says which kind it is. A node you wrote inside another component&#x27;s settings has no line of its own for the graph to rewrite, but you can still edit it in the code. A node PsyNeuLink builds for you — learning, control and memory machinery — has no source at all, so there is nothing to edit anywhere. The advice differs because the situations do.</p>
+<p>The Open menu The menu now opens short, with each section folded. Drag a section heading to reorder it, or use Settings, where there is also a way back to the original order. Your own models come first, then PsyNeuLink&#x27;s.</p>
+<p>The Components palette The palette also starts with its categories closed rather than showing about forty rows before you have chosen anything. Click a heading to open one.</p>
+<p>The fold triangles in both the palette and the Open menu were small enough to read as decoration. They are bigger now, and the same in both places.</p>
+<p>View only, enforced at the write The view-only lock from 0.5.8 is now checked when the file is written, not only when the request arrives. A locked model stays locked on every path that could change it.</p>
+            ]]></description>
+            <pubDate>Wed, 16 Sep 2026 08:10:57 +0000</pubDate>
+            <sparkle:version>0.5.9</sparkle:version>
+            <sparkle:shortVersionString>0.5.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.9/PsyNeuView-0.5.9.dmg"
+                       length="51295760"
+                       type="application/octet-stream"
+                       sparkle:edSignature="J0WI8lNOw7o49lt8UpG9712s9/beMmXiwIbo2tHzr+kA52GKZrsX84/FVF7P+zU9qkvjODgDhJIUaDufPeB6AQ==" />
+        </item>
+        <item>
             <title>Version 0.5.8</title>
             <description><![CDATA[
 <p>Two changes, both about the canvas editing your model file.</p>
