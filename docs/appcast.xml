@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.12</title>
+            <description><![CDATA[
+<p>Most of this release is about PsyNeuView and a Python editor being open on the same file at once, and about the app being honest when it cannot do something.</p>
+<p>Sync says what it is doing. A small indicator states whether the file on disk is being watched, whether a change just arrived, or whether a decision is waiting on you. Before, sync was invisible: when it worked you saw the canvas change, and when it stopped you saw nothing at all.</p>
+<p>Saving cannot quietly overwrite someone else&#x27;s work. If the file changed on disk since PsyNeuView loaded it, the save is refused and you are offered the same choice an external edit raises. Neither version is lost.</p>
+<p>A half-finished file no longer blanks the canvas. A model under edit is broken for much of the time it is being edited. Rather than tearing the graph down and rebuilding it a keystroke later, the last version that built is held, and labelled as such. The banner offers a diff against that version — mid-edit, &quot;what did I just change&quot; is usually a faster route to the problem than the syntax error.</p>
+<p>Layout keeps what you decided. A node dropped from the palette lands where you dropped it. Edges you shaped by hand survive a reload. Positions for nodes that no longer exist are cleared, so a reused name cannot inherit a stranger&#x27;s coordinates. A rename you perform carries the node&#x27;s position with it. And the inspector says which parts of the arrangement are yours and which were computed — the computed ones adapt as the model changes, and now you can tell them apart.</p>
+<p>Recurrent models lay out sensibly. Ranking a graph with cycles has no answer; edges that close a cycle no longer get a vote in placement. Six of the ten bundled reference models are recurrent, so this is the common case.</p>
+<p>Starting up stops re-downloading PsyNeuLink. Launching used to re-clone the entire PsyNeuLink repository even when nothing upstream had changed. pip cannot cache a git branch URL, so &quot;install from devel&quot; means a fresh clone every time — measured at about 105 seconds of a 122-second start. It now asks first: one query returns the branch&#x27;s current commit, the installed build already records the commit it was made from, and if they match there is nothing to download. The check takes roughly a third of a second.</p>
+<p>This applies to installs that track a git branch, which is the default and the slow case. A PyPI install was never affected, since pip can cache that.</p>
+<p>Smaller things. An auto bend now explains why it cannot be deleted instead of ignoring the double-click, and attachment dots respond to hover the way bend handles do. The version reported in Settings no longer goes stale when a release changes only the version string — an error the previous release&#x27;s skip-the-reinstall fix had quietly introduced.</p>
+<p>Bundles PsyNeuView 0.5.6.</p>
+            ]]></description>
+            <pubDate>Thu, 17 Sep 2026 13:19:59 +0000</pubDate>
+            <sparkle:version>0.5.12</sparkle:version>
+            <sparkle:shortVersionString>0.5.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.12/PsyNeuView-0.5.12.dmg"
+                       length="51403923"
+                       type="application/octet-stream"
+                       sparkle:edSignature="PagQJjCpjgMTgJ2cwkLnLTjSpKdSsyibbLO7cLD0NlOCGMU+s8+TabGWCxtPcW5I0+jKzv4U9cuRvjPQGaa6Dg==" />
+        </item>
+        <item>
             <title>Version 0.5.11</title>
             <description><![CDATA[
 <p>An update that changed nothing but a version string used to trigger a full dependency reinstall, which re-clones PsyNeuLink from a git branch and cannot be served from pip&#x27;s cache. One boot spent 2m02s on work that was not needed. Reinstalls now happen when dependencies actually move (#144).</p>
