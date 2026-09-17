@@ -7,23 +7,6 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
-            <title>Version 0.5.12</title>
-            <description><![CDATA[
-<p>Launching after an update used to re-clone the entire PsyNeuLink repository even when nothing upstream had changed. pip cannot cache a git branch URL, so &quot;install from devel&quot; means a fresh clone every time — measured at about 105 seconds of a 122-second start.</p>
-<p>It now asks first. A single query returns the branch&#x27;s current commit, the installed build already records the commit it was made from, and if they match there is nothing to download. The check takes roughly a third of a second.</p>
-<p>Also: the version reported in Settings no longer goes stale when a release changes only the version string, which the previous release&#x27;s skip-the-reinstall fix had quietly introduced.</p>
-<p>Bundles PsyNeuView 0.5.6.</p>
-            ]]></description>
-            <pubDate>Thu, 17 Sep 2026 12:49:18 +0000</pubDate>
-            <sparkle:version>0.5.12</sparkle:version>
-            <sparkle:shortVersionString>0.5.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.12/PsyNeuView-0.5.12.dmg"
-                       length="51373805"
-                       type="application/octet-stream"
-                       sparkle:edSignature="5NtkhN+/CiORYUtLciFEX97zuxIGwloD/ZxDXoXPYYuKx8FkT9JvOyuIHcdWH6cPbknazmwtu8UGEqMAdM19Ag==" />
-        </item>
-        <item>
             <title>Version 0.5.11</title>
             <description><![CDATA[
 <p>An update that changed nothing but a version string used to trigger a full dependency reinstall, which re-clones PsyNeuLink from a git branch and cannot be served from pip&#x27;s cache. One boot spent 2m02s on work that was not needed. Reinstalls now happen when dependencies actually move (#144).</p>
