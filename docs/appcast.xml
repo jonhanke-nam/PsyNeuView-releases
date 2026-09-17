@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.11</title>
+            <description><![CDATA[
+<p>An update that changed nothing but a version string used to trigger a full dependency reinstall, which re-clones PsyNeuLink from a git branch and cannot be served from pip&#x27;s cache. One boot spent 2m02s on work that was not needed. Reinstalls now happen when dependencies actually move (#144).</p>
+<p>While it waited, the log said &#x27;Cannot open window: server port not assigned yet&#x27; — accurate, not an error, and the last line for minutes, so a slow start read as a hang. It now says what it is waiting on, and warns before the slow step rather than after (#146).</p>
+<p>The update also only looked at the last commit of a pull that routinely brings several, so a frontend change could arrive without triggering its rebuild (#145).</p>
+<p>Keyboard shortcuts: the backend was never told it had been launched by the Mac app, so Settings applied browser rules inside a WKWebView and refused Cmd+W, Cmd+T, Cmd+N and Cmd+L as unreachable. They are bindable now, where they do in fact work (#59).</p>
+<p>Bundles PsyNeuView 0.5.5, which reports its own version correctly.</p>
+<p>Note: updating from 0.5.10 still uses the old updater, so this install is the last slow one.</p>
+            ]]></description>
+            <pubDate>Thu, 17 Sep 2026 00:17:21 +0000</pubDate>
+            <sparkle:version>0.5.11</sparkle:version>
+            <sparkle:shortVersionString>0.5.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.11/PsyNeuView-0.5.11.dmg"
+                       length="51368047"
+                       type="application/octet-stream"
+                       sparkle:edSignature="S4UMvbgAaKGkNGmrOLK3rlZVILPG9x8VWVFkR+hngYDKigAYmL2gK1O5ekt5wlHzfAWLoADraN/xVW1WnSviBg==" />
+        </item>
+        <item>
             <title>Version 0.5.10</title>
             <description><![CDATA[
 <p>A crash fix that matters if you run the app from the disk image, and a handful of changes to Settings and setup.</p>
