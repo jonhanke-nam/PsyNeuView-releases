@@ -9,6 +9,56 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.13
+
+_Released 2026-10-02 · [`v0.5.13`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.13)_
+
+This release bundles PsyNeuView 0.5.8. Most of it is about learning PsyNeuView
+by doing, and about working against a PsyNeuLink checkout you are editing
+yourself.
+
+Guided walkthroughs. A Tutorials menu starts step-by-step walkthroughs that
+point at the part of the app to use next and move on when you've done it. The
+Getting started set covers selecting nodes, adding a component and running a
+model; the course set follows the Cognitive Neuroscience course's own order,
+from the logistic function and the perceptron through attractor dynamics, the
+drift diffusion model and episodic memory to the Stroop model. A walkthrough
+opens the model it was written for, and if a step's node isn't in the model
+you have open, it says so and offers to open the right one.
+
+Your own PsyNeuLink. Choose a local PsyNeuLink checkout in Settings, and the
+PsyNeuLink Library and examples come from that checkout and open in place: an
+edit saved in your IDE appears in PsyNeuView's editor and graph by itself. A
+change to PsyNeuLink's own code restarts the model runner so the next run uses
+it, and the app says so. Switching the source refreshes the Open menu straight
+away. Files from a GitHub or PyPI install are read only, since PsyNeuView
+replaces them when it reinstalls.
+
+Named input sets. A model can declare sets of inputs, and Run and Learn let
+you pick one instead of typing trials. Small sets are filled in for you; a set
+that is a whole experiment is offered but not preloaded, so pressing Run stays
+quick.
+
+Zoom the whole window. View ▸ Zoom In, Zoom Out and Actual Size (⌘+, ⌘−, ⌘0)
+enlarge everything in the window at once — toolbar, panels and the tutorial
+bar — and the level is remembered.
+
+The Open menu and Settings. My Models is now My Project Folder, and you can add
+your own folders as Open-menu sections. Catalogs still under development are
+hidden unless developer mode is on or a walkthrough needs one. Settings puts
+the PsyNeuLink source first, shows when you have unsaved changes, and keeps
+Save on screen.
+
+Fixes. The canvas flags nodes that are off-screen instead of clipping them. A
+canvas preview that answered after you had opened another model no longer
+replaces the new model's graph. Setting a parameter's function writes it in
+correctly. The model runner restarts safely when several things ask at once,
+and a stuck start times out instead of hanging.
+
+Behind the scenes, every release is now checked before it ships: the bundled
+PsyNeuView must have passed its full test suite, and the built app is
+installed and started on a fresh machine.
+
 ## PsyNeuView 0.5.12 — works alongside your editor, and starts without the wait
 
 _Released 2026-09-17 · [`v0.5.12`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.12)_
