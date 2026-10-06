@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.14</title>
+            <description><![CDATA[
+<p>This release fixes two problems that had been in every recent version, and makes setting up with your own PsyNeuLink checkout work.</p>
+<p>App updates now bring their PsyNeuView with them. Each app carries a PsyNeuView, but an update used to keep running the one you first installed, so new features never arrived. On its first launch, 0.5.14 moves to the PsyNeuView it carries (0.5.8) by itself: it sets it up, carries your saved models across, and starts. That takes a few minutes, once. If anything goes wrong it starts the version you had and tries again next time.</p>
+<p>Launch can no longer hang. A quick code update at startup could leave the app waiting forever on &quot;Starting the PsyNeuView server…&quot;. It now always moves on.</p>
+<p>Setting up with your own PsyNeuLink. The Setup Wizard&#x27;s buttons stay on screen whichever PsyNeuLink you choose; choosing a checkout used to push Get Started out of reach. A new choice clones a fresh PsyNeuLink checkout into a folder you pick and uses it in place, so you can keep several. Each choice now says whether you can edit it: your own checkouts can be edited, while the development version and the official release are installed for you. The welcome screen also describes what setup will actually do: no developer tools or GitHub account needed.</p>
+<p>Behind the scenes, every release is now checked by installing it on a fresh machine, and by starting from an older install and requiring the app to move to the new PsyNeuView by itself.</p>
+            ]]></description>
+            <pubDate>Tue, 06 Oct 2026 17:51:52 +0000</pubDate>
+            <sparkle:version>0.5.14</sparkle:version>
+            <sparkle:shortVersionString>0.5.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.14/PsyNeuView-0.5.14.dmg"
+                       length="51503585"
+                       type="application/octet-stream"
+                       sparkle:edSignature="po/kVDEdmFnkSbPSCQ+iEaFt5Y9yqBZkPFj3FDw+0wUYKB/QEcrI+pq/kHcFz6wEU3ZYAwyDZh7lm7slATFtCQ==" />
+        </item>
+        <item>
             <title>Version 0.5.13</title>
             <description><![CDATA[
 <p>This release bundles PsyNeuView 0.5.8. Most of it is about learning PsyNeuView by doing, and about working against a PsyNeuLink checkout you are editing yourself.</p>
