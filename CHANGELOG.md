@@ -9,6 +9,36 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.14
+
+_Released 2026-10-06 · [`v0.5.14`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.14)_
+
+This release fixes two problems that had been in every recent version, and
+makes setting up with your own PsyNeuLink checkout work.
+
+App updates now bring their PsyNeuView with them. Each app carries a
+PsyNeuView, but an update used to keep running the one you first installed,
+so new features never arrived. On its first launch, 0.5.14 moves to the
+PsyNeuView it carries (0.5.8) by itself: it sets it up, carries your saved
+models across, and starts. That takes a few minutes, once. If anything goes
+wrong it starts the version you had and tries again next time.
+
+Launch can no longer hang. A quick code update at startup could leave the app
+waiting forever on "Starting the PsyNeuView server…". It now always moves on.
+
+Setting up with your own PsyNeuLink. The Setup Wizard's buttons stay on
+screen whichever PsyNeuLink you choose; choosing a checkout used to push Get
+Started out of reach. A new choice clones a fresh PsyNeuLink checkout into a
+folder you pick and uses it in place, so you can keep several. Each choice
+now says whether you can edit it: your own checkouts can be edited, while the
+development version and the official release are installed for you. The
+welcome screen also describes what setup will actually do: no developer
+tools or GitHub account needed.
+
+Behind the scenes, every release is now checked by installing it on a fresh
+machine, and by starting from an older install and requiring the app to move
+to the new PsyNeuView by itself.
+
 ## PsyNeuView 0.5.13
 
 _Released 2026-10-02 · [`v0.5.13`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.13)_
