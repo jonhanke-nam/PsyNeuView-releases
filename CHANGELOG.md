@@ -9,6 +9,30 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.15
+
+_Released 2026-10-07 · [`v0.5.15`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.15)_
+
+This release brings the app's settings into one place, lets you move between PsyNeuView installs without starting over, and adds a way to send us what we need when something goes wrong. It carries PsyNeuView 0.5.9.
+
+One Settings. Settings… (⌘,) and the gear icon now open the same Settings, inside the PsyNeuView window. The app's own settings window is gone: it had grown its own copies of some controls, and the two had started to disagree. Settings only the app can act on (which PsyNeuView runs, restarting if it crashes, opening at login, and where problem reports go) are in a "Mac app" section there.
+
+Switch between PsyNeuView installs. Settings ▸ Mac app chooses between the PsyNeuView included with the app and a checkout of your own, and Apply & restart switches. Nothing is deleted, and switching back is the same choice; checkouts you've used are one click away. This replaces Reset Setup, which forgot your install rather than letting you move between them.
+
+See how startup is going. The starting window shows each step (preparing PsyNeuView, setting up Python, installing PsyNeuLink, starting the server) with how long it has taken and roughly how long is left.
+
+Report a Problem. Help ▸ Report a Problem… collects a screenshot of the PsyNeuView window, what you were doing, the versions and install in use, how this launch went, and the recent log, and saves them as a PNV-debugging folder in Downloads. It then offers to email it or share it however you like; nothing is sent until you choose to. Tokens and passwords are removed, and your home folder is shown as ~.
+
+An install too old for the app's Settings is caught. If the PsyNeuView in use is older than 0.5.9, its Settings has no Mac app section and ⌘, would open nothing. The app now says so when it starts, and on ⌘,, and offers to switch to the PsyNeuView it includes.
+
+Your models stay in your checkout. Launching with a PsyNeuView checkout no longer moves .py files out of its models folder.
+
+From PsyNeuView 0.5.9:
+- Settings remembers the PsyNeuLink sources you've used (GitHub branches, the official release, and your own checkouts) and switches between them. Your own checkouts switch in seconds, and each source says whether you can edit it.
+- Settings shows the PsyNeuLink actually running: a checkout you cloned reads as your checkout, and a PsyNeuLink installed from GitHub is labelled GitHub, not PyPI.
+- Escape reaches open menus again, and the dialog that appears when a file changed on disk while you had unsaved edits, where it means "keep my changes". (Settings doesn't close with Escape yet; that's coming.)
+- Saving a model could, rarely, be mistaken for someone else editing the file. PsyNeuView now waits for the file to settle before deciding.
+
 ## PsyNeuView 0.5.14
 
 _Released 2026-10-06 · [`v0.5.14`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.14)_
