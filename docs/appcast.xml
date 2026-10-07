@@ -7,6 +7,33 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.15</title>
+            <description><![CDATA[
+<p>This release brings the app&#x27;s settings into one place, lets you move between PsyNeuView installs without starting over, and adds a way to send us what we need when something goes wrong. It carries PsyNeuView 0.5.9.</p>
+<p>One Settings. Settings… (⌘,) and the gear icon now open the same Settings, inside the PsyNeuView window. The app&#x27;s own settings window is gone: it had grown its own copies of some controls, and the two had started to disagree. Settings only the app can act on (which PsyNeuView runs, restarting if it crashes, opening at login, and where problem reports go) are in a &quot;Mac app&quot; section there.</p>
+<p>Switch between PsyNeuView installs. Settings ▸ Mac app chooses between the PsyNeuView included with the app and a checkout of your own, and Apply &amp; restart switches. Nothing is deleted, and switching back is the same choice; checkouts you&#x27;ve used are one click away. This replaces Reset Setup, which forgot your install rather than letting you move between them.</p>
+<p>See how startup is going. The starting window shows each step (preparing PsyNeuView, setting up Python, installing PsyNeuLink, starting the server) with how long it has taken and roughly how long is left.</p>
+<p>Report a Problem. Help ▸ Report a Problem… collects a screenshot of the PsyNeuView window, what you were doing, the versions and install in use, how this launch went, and the recent log, and saves them as a PNV-debugging folder in Downloads. It then offers to email it or share it however you like; nothing is sent until you choose to. Tokens and passwords are removed, and your home folder is shown as ~.</p>
+<p>An install too old for the app&#x27;s Settings is caught. If the PsyNeuView in use is older than 0.5.9, its Settings has no Mac app section and ⌘, would open nothing. The app now says so when it starts, and on ⌘,, and offers to switch to the PsyNeuView it includes.</p>
+<p>Your models stay in your checkout. Launching with a PsyNeuView checkout no longer moves .py files out of its models folder.</p>
+<p>From PsyNeuView 0.5.9:</p>
+<ul>
+<li>Settings remembers the PsyNeuLink sources you&#x27;ve used (GitHub branches, the official release, and your own checkouts) and switches between them. Your own checkouts switch in seconds, and each source says whether you can edit it.</li>
+<li>Settings shows the PsyNeuLink actually running: a checkout you cloned reads as your checkout, and a PsyNeuLink installed from GitHub is labelled GitHub, not PyPI.</li>
+<li>Escape reaches open menus again, and the dialog that appears when a file changed on disk while you had unsaved edits, where it means &quot;keep my changes&quot;. (Settings doesn&#x27;t close with Escape yet; that&#x27;s coming.)</li>
+<li>Saving a model could, rarely, be mistaken for someone else editing the file. PsyNeuView now waits for the file to settle before deciding.</li>
+</ul>
+            ]]></description>
+            <pubDate>Wed, 07 Oct 2026 06:53:00 +0000</pubDate>
+            <sparkle:version>0.5.15</sparkle:version>
+            <sparkle:shortVersionString>0.5.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.15/PsyNeuView-0.5.15.dmg"
+                       length="51607775"
+                       type="application/octet-stream"
+                       sparkle:edSignature="u3cowpJZjJ6fArZWOptaRr3muey3R5vr1ZThNKzmqeZlQdCvi8iHbNBEICnJTcDJc5YOyxNf1SX/ziDuFD0tCQ==" />
+        </item>
+        <item>
             <title>Version 0.5.14</title>
             <description><![CDATA[
 <p>This release fixes two problems that had been in every recent version, and makes setting up with your own PsyNeuLink checkout work.</p>
