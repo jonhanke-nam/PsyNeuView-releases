@@ -9,6 +9,22 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.16
+
+_Released 2026-10-07 · [`v0.5.16`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.16)_
+
+This release carries PsyNeuView 0.5.10, which reorganises Settings and makes it clear where things are kept.
+
+A clearer Settings. Settings has sections: About, General, Open menu, Folders, Keyboard shortcuts, Problem reports and Developer (advanced). About is short, everyday settings come first, and developer settings are together at the end. Escape closes Settings, and a × stays at the top while you scroll.
+
+Folders you can see. Settings ▸ Folders lists everything you can open, with its full path and a Show in Finder button: My Project Folder, your catalogs, the PsyNeuLink Library and Examples, and the models included with PsyNeuView. The Open menu also says where each section comes from.
+
+Choose your PsyNeuLink in General. Latest development is recommended; Official release lists every release with its version and date. Releases that can't run here are greyed out with the reason, and older releases without run stepping say so before you switch. Releases you install are kept, so switching back doesn't download PsyNeuLink again.
+
+Developer mode is visible. Everything it adds carries a purple Developer badge, and the toolbar shows when it's on.
+
+Inside the app, your models folder is still the one the app sets; moving it from Settings comes in a later version.
+
 ## PsyNeuView 0.5.15
 
 _Released 2026-10-07 · [`v0.5.15`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.15)_
