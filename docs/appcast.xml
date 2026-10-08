@@ -7,6 +7,22 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.19</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.5.13.</p>
+<p>You can see what starting is doing. The starting window used to show one spinner, &quot;Starting the PsyNeuView server…&quot;, for everything a start does. It now lists each step as it runs, with how long it has taken and how long it usually takes on your Mac: updating your checkout, checking and rebuilding the interface, updating Python packages, starting the server, loading PsyNeuLink and warming up the model runner. Steps that aren&#x27;t needed say so and are skipped. When a step takes unusually long, the window says why.</p>
+<p>Starting is faster. A start from your own PsyNeuView checkout no longer reinstalls the interface&#x27;s packages and rebuilds the interface every time: it does so only when an update actually changed them, and the same for Python packages. A fixed three-second pause at the end of every start is gone.</p>
+            ]]></description>
+            <pubDate>Thu, 08 Oct 2026 17:55:03 +0000</pubDate>
+            <sparkle:version>0.5.19</sparkle:version>
+            <sparkle:shortVersionString>0.5.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.19/PsyNeuView-0.5.19.dmg"
+                       length="51849906"
+                       type="application/octet-stream"
+                       sparkle:edSignature="pmqJFw9vl1SnRFhLR1ihVm5OEJRdwQnAuyH5s9cH7v0jkUTclEzQrA0Y6rIiBzUat6zQJRkATVqFdeCAUbH3AA==" />
+        </item>
+        <item>
             <title>Version 0.5.18</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.12.</p>
