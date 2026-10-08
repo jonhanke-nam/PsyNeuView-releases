@@ -9,6 +9,31 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.17
+
+_Released 2026-10-08 · [`v0.5.17`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.17)_
+
+This release carries PsyNeuView 0.5.11.
+
+Your preferences stick. The Open menu order, keyboard shortcuts, layout, the graph pointer and the other choices you make inside PsyNeuView used to reset every time the app started. The app now keeps them.
+
+PsyNeuView First Steps. Eight short walkthroughs, about 25 minutes in all, with captions, optional narration and a pointer, show how PsyNeuView works. The app offers them once; they're always in the Tutorials menu.
+
+Your own PsyNeuLink checkout is editable. Choose it in Settings ▸ Developer and edit its models straight away. PsyNeuLink that PsyNeuView installs for you stays read only, and says why.
+
+Choosing which PsyNeuLink runs is one Switch to list, with full names and a Finder picker for a new checkout. PsyNeuLink's Latest development keeps itself up to date, installing at the next start.
+
+Your models folder. The app no longer fixes where your models live, so Settings ▸ Folders can move your models out of a hidden folder into a visible one, keeping everything together and deleting nothing until the copy is checked.
+
+Edits to included Reference models now survive app updates.
+
+Also:
+- Settings ▸ Appearance: an arrow pointer in the graph view, in four sizes.
+- A model can be locked as view only (Layout menu), for teaching.
+- Help ▸ Report a Problem now includes how long each startup step took.
+- "Update PsyNeuView checkout…" is a developer item that names the folder and branch it pulls, and pulls safely.
+- PsyNeuView is spelled right everywhere.
+
 ## PsyNeuView 0.5.16
 
 _Released 2026-10-07 · [`v0.5.16`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.16)_
