@@ -7,6 +7,21 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.18</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.5.12.</p>
+<p>Choosing which PsyNeuLink runs is easier. In Settings ▸ Developer, the Switch to list folds into groups: your checkouts, one group per GitHub repo, and the official releases. &quot;Another local checkout…&quot; and &quot;Another GitHub repo or branch…&quot; are at the top, only the group holding the PsyNeuLink in use opens, and inside a repo only the branch name shows, so the list starts short and nothing is cut off.</p>
+            ]]></description>
+            <pubDate>Thu, 08 Oct 2026 15:07:07 +0000</pubDate>
+            <sparkle:version>0.5.18</sparkle:version>
+            <sparkle:shortVersionString>0.5.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.18/PsyNeuView-0.5.18.dmg"
+                       length="51820220"
+                       type="application/octet-stream"
+                       sparkle:edSignature="nr/Ds6iGtULqcwmz7ZwvODQY99gLXYNf0kwiIrgTfpFXj+p4E23jv1aZEXg71JyABMul7nvyE9skhcweCZkjDA==" />
+        </item>
+        <item>
             <title>Version 0.5.17</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.11.</p>
