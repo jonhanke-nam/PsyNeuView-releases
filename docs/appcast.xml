@@ -7,6 +7,34 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.17</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.5.11.</p>
+<p>Your preferences stick. The Open menu order, keyboard shortcuts, layout, the graph pointer and the other choices you make inside PsyNeuView used to reset every time the app started. The app now keeps them.</p>
+<p>PsyNeuView First Steps. Eight short walkthroughs, about 25 minutes in all, with captions, optional narration and a pointer, show how PsyNeuView works. The app offers them once; they&#x27;re always in the Tutorials menu.</p>
+<p>Your own PsyNeuLink checkout is editable. Choose it in Settings ▸ Developer and edit its models straight away. PsyNeuLink that PsyNeuView installs for you stays read only, and says why.</p>
+<p>Choosing which PsyNeuLink runs is one Switch to list, with full names and a Finder picker for a new checkout. PsyNeuLink&#x27;s Latest development keeps itself up to date, installing at the next start.</p>
+<p>Your models folder. The app no longer fixes where your models live, so Settings ▸ Folders can move your models out of a hidden folder into a visible one, keeping everything together and deleting nothing until the copy is checked.</p>
+<p>Edits to included Reference models now survive app updates.</p>
+<p>Also:</p>
+<ul>
+<li>Settings ▸ Appearance: an arrow pointer in the graph view, in four sizes.</li>
+<li>A model can be locked as view only (Layout menu), for teaching.</li>
+<li>Help ▸ Report a Problem now includes how long each startup step took.</li>
+<li>&quot;Update PsyNeuView checkout…&quot; is a developer item that names the folder and branch it pulls, and pulls safely.</li>
+<li>PsyNeuView is spelled right everywhere.</li>
+</ul>
+            ]]></description>
+            <pubDate>Thu, 08 Oct 2026 08:58:50 +0000</pubDate>
+            <sparkle:version>0.5.17</sparkle:version>
+            <sparkle:shortVersionString>0.5.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.17/PsyNeuView-0.5.17.dmg"
+                       length="51788779"
+                       type="application/octet-stream"
+                       sparkle:edSignature="sxn6DDTIqeO8NfVtNQ0DCnrIH9vfA/VyT+QAI44Ktyi8HyjRUPmoV/mfYSHmPm/yObLcppwdezntrXAQzvwdDw==" />
+        </item>
+        <item>
             <title>Version 0.5.16</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.10, which reorganises Settings and makes it clear where things are kept.</p>
