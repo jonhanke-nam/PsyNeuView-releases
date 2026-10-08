@@ -9,6 +9,16 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.19
+
+_Released 2026-10-08 · [`v0.5.19`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.19)_
+
+This release carries PsyNeuView 0.5.13.
+
+You can see what starting is doing. The starting window used to show one spinner, "Starting the PsyNeuView server…", for everything a start does. It now lists each step as it runs, with how long it has taken and how long it usually takes on your Mac: updating your checkout, checking and rebuilding the interface, updating Python packages, starting the server, loading PsyNeuLink and warming up the model runner. Steps that aren't needed say so and are skipped. When a step takes unusually long, the window says why.
+
+Starting is faster. A start from your own PsyNeuView checkout no longer reinstalls the interface's packages and rebuilds the interface every time: it does so only when an update actually changed them, and the same for Python packages. A fixed three-second pause at the end of every start is gone.
+
 ## PsyNeuView 0.5.18
 
 _Released 2026-10-08 · [`v0.5.18`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.18)_
