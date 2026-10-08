@@ -9,6 +9,14 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.18
+
+_Released 2026-10-08 · [`v0.5.18`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.18)_
+
+This release carries PsyNeuView 0.5.12.
+
+Choosing which PsyNeuLink runs is easier. In Settings ▸ Developer, the Switch to list folds into groups: your checkouts, one group per GitHub repo, and the official releases. "Another local checkout…" and "Another GitHub repo or branch…" are at the top, only the group holding the PsyNeuLink in use opens, and inside a repo only the branch name shows, so the list starts short and nothing is cut off.
+
 ## PsyNeuView 0.5.17
 
 _Released 2026-10-08 · [`v0.5.17`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.17)_
