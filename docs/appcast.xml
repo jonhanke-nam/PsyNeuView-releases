@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.20</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.5.14.</p>
+<p>Help ▸ Report a Problem… now gathers what&#x27;s needed to understand a problem the first time:</p>
+<ul>
+<li>The whole log of this launch, not just its last lines, and the previous launch&#x27;s too when the problem was at startup. Each launch&#x27;s log is also kept in ~/Library/Logs/PsyNeuView.</li>
+<li>Every app setting, with nothing private in it.</li>
+<li>What PsyNeuView was doing: the open model, your settings, which PsyNeuLink is installed, and a record of what happened since it opened (menu commands, models opened and saved, settings changed, runs and their outcomes, and every message it showed you).</li>
+</ul>
+<p>You can still leave any part out before saving the report. Only PsyNeuView&#x27;s own state is included: never your model&#x27;s code, your other files or anything that identifies you.</p>
+            ]]></description>
+            <pubDate>Fri, 09 Oct 2026 06:54:59 +0000</pubDate>
+            <sparkle:version>0.5.20</sparkle:version>
+            <sparkle:shortVersionString>0.5.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.20/PsyNeuView-0.5.20.dmg"
+                       length="51863728"
+                       type="application/octet-stream"
+                       sparkle:edSignature="+ZKW32/C0Xl5jpqvUs96yW1SFoBD3awem1w7OOFkVNCpF+jPG9PvFWHkKbtQreI0TicxUNy77V5zEPryHKUTAg==" />
+        </item>
+        <item>
             <title>Version 0.5.19</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.13.</p>
