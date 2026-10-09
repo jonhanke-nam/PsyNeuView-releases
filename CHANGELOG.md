@@ -9,6 +9,19 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.20
+
+_Released 2026-10-09 · [`v0.5.20`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.20)_
+
+This release carries PsyNeuView 0.5.14.
+
+Help ▸ Report a Problem… now gathers what's needed to understand a problem the first time:
+- The whole log of this launch, not just its last lines, and the previous launch's too when the problem was at startup. Each launch's log is also kept in ~/Library/Logs/PsyNeuView.
+- Every app setting, with nothing private in it.
+- What PsyNeuView was doing: the open model, your settings, which PsyNeuLink is installed, and a record of what happened since it opened (menu commands, models opened and saved, settings changed, runs and their outcomes, and every message it showed you).
+
+You can still leave any part out before saving the report. Only PsyNeuView's own state is included: never your model's code, your other files or anything that identifies you.
+
 ## PsyNeuView 0.5.19
 
 _Released 2026-10-08 · [`v0.5.19`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.19)_
