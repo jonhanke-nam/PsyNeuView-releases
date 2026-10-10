@@ -7,6 +7,30 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.21</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.5.15.</p>
+<ul>
+<li>Faster start: about 40 seconds quicker to open, and installing takes about a third of the time it did.</li>
+<li>Autosave, if you want it: Settings &gt; General &gt; Model files. Off unless you turn it on.</li>
+<li>Changes since save: click the orange unsaved dot to see what you changed since the last save.</li>
+<li>Lock one model in your own PsyNeuLink checkout, while the rest stays editable.</li>
+<li>Choosing an empty folder as your PsyNeuLink checkout offers to download PsyNeuLink into it.</li>
+<li>Every dialog closes the same ways: a x that stays in view, and Escape.</li>
+<li>One set of colours and buttons; anything labelled Remove or Delete is red.</li>
+<li>Two more course walkthroughs: Module 4 (semantic network) and Module 7 (conflict monitoring).</li>
+</ul>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 08:50:29 +0000</pubDate>
+            <sparkle:version>0.5.21</sparkle:version>
+            <sparkle:shortVersionString>0.5.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.21/PsyNeuView-0.5.21.dmg"
+                       length="51969710"
+                       type="application/octet-stream"
+                       sparkle:edSignature="u5UrrYPiHvs0UE4E8beHcPNmZOfP5qrB6CUcAIQfafQrXHYV/3JS20x65CqQi6sMH7fEIfsNGkU5OCtNU7xfDg==" />
+        </item>
+        <item>
             <title>Version 0.5.20</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.14.</p>
