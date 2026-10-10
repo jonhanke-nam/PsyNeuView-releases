@@ -9,6 +9,21 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.21
+
+_Released 2026-10-10 · [`v0.5.21`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.21)_
+
+This release carries PsyNeuView 0.5.15.
+
+- Faster start: about 40 seconds quicker to open, and installing takes about a third of the time it did.
+- Autosave, if you want it: Settings > General > Model files. Off unless you turn it on.
+- Changes since save: click the orange unsaved dot to see what you changed since the last save.
+- Lock one model in your own PsyNeuLink checkout, while the rest stays editable.
+- Choosing an empty folder as your PsyNeuLink checkout offers to download PsyNeuLink into it.
+- Every dialog closes the same ways: a x that stays in view, and Escape.
+- One set of colours and buttons; anything labelled Remove or Delete is red.
+- Two more course walkthroughs: Module 4 (semantic network) and Module 7 (conflict monitoring).
+
 ## PsyNeuView 0.5.20
 
 _Released 2026-10-09 · [`v0.5.20`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.20)_
