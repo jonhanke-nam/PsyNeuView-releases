@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.5.22</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.5.16.</p>
+<ul>
+<li>Saves in History: see each save, and revert the file to an earlier one after seeing what changes.</li>
+<li>Undo never writes your file, goes back the whole session, and a burst of undos shows a single notice.</li>
+<li>Settings &gt; About says which PsyNeuView is running and where from, and warns when something is out of date.</li>
+<li>Protect a model by a line in its file: &quot;# PsyNeuView: protected&quot; or &quot;protected permanently&quot;.</li>
+<li>Fixes: the Run tab keeps your chosen inputs after you edit a parameter; a broken edit keeps the last good graph and says why; edges no longer cut through nodes; the graph legend no longer covers the zoom buttons.</li>
+<li>Two more course walkthroughs: EGO and ISC-CI.</li>
+<li>Old included PsyNeuView folders are tidied away (to the Trash) after an update.</li>
+</ul>
+            ]]></description>
+            <pubDate>Sun, 11 Oct 2026 17:20:06 +0000</pubDate>
+            <sparkle:version>0.5.22</sparkle:version>
+            <sparkle:shortVersionString>0.5.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.5.22/PsyNeuView-0.5.22.dmg"
+                       length="52026403"
+                       type="application/octet-stream"
+                       sparkle:edSignature="leO7YLKyyi9mdSYa3WrBO/oN5AuXhnv7wk0hb1PFFsY/ITApLb+esHAjhySGdXBtxdVVVBXc3USvc8Z+Fdb7CA==" />
+        </item>
+        <item>
             <title>Version 0.5.21</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.15.</p>
