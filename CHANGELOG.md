@@ -9,6 +9,20 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.5.22
+
+_Released 2026-10-11 · [`v0.5.22`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.22)_
+
+This release carries PsyNeuView 0.5.16.
+
+- Saves in History: see each save, and revert the file to an earlier one after seeing what changes.
+- Undo never writes your file, goes back the whole session, and a burst of undos shows a single notice.
+- Settings > About says which PsyNeuView is running and where from, and warns when something is out of date.
+- Protect a model by a line in its file: "# PsyNeuView: protected" or "protected permanently".
+- Fixes: the Run tab keeps your chosen inputs after you edit a parameter; a broken edit keeps the last good graph and says why; edges no longer cut through nodes; the graph legend no longer covers the zoom buttons.
+- Two more course walkthroughs: EGO and ISC-CI.
+- Old included PsyNeuView folders are tidied away (to the Trash) after an update.
+
 ## PsyNeuView 0.5.21
 
 _Released 2026-10-10 · [`v0.5.21`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.21)_
