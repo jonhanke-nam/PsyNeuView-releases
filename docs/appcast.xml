@@ -7,6 +7,36 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.0</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.0. PsyNeuView and its Mac app are now open source (Apache-2.0).</p>
+<ul>
+<li>After an update, the window always shows the new version. Before, it could keep showing an older page, with features like Autosave or the new arrow pointer missing.</li>
+<li>When an update is waiting, the toolbar says so, with Install and Later.</li>
+<li>Editing the same model in PsyNeuView and another editor (such as PyCharm) no longer overwrites the other editor&#x27;s changes, and &quot;Load from disk&quot; always reads the file as it is now.</li>
+<li>Walkthrough narration reads in a good built-in voice; choose the voice and speed in Settings &gt; Tutorials and Voice, with a sample and help getting better voices.</li>
+<li>The walkthrough bar&#x27;s text is larger and easier to read; the Tutorials menu&#x27;s sections fold.</li>
+<li>The graph legend starts folded; Settings &gt; Appearance chooses.</li>
+<li>Toolbar buttons no longer break onto two lines in a narrow window.</li>
+<li>Exporting to MDF warns about parts of a model that won&#x27;t survive the round trip.</li>
+<li>See a layer&#x27;s values as a grid, like the Hopfield letters.</li>
+<li>Report a Problem makes sure the report file is attached, by Gmail, Outlook or Share, and hides your home folder throughout.</li>
+<li>The page&#x27;s dialogs (&quot;unsaved changes, load anyway?&quot;) now ask instead of silently cancelling.</li>
+<li>All 14 course walkthroughs, and the Learn tab trains models that don&#x27;t use backpropagation (TD, Hebbian).</li>
+<li>If you use your own PsyNeuLink checkout, updates now keep using it, and Settings shows the PsyNeuLink actually in use, with one click to fix any mismatch.</li>
+<li>Fixes: a node name with a newline or quote no longer crashes the app; run errors say what really went wrong; switching PsyNeuLink to your own checkout no longer breaks loading.</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 13 Oct 2026 21:05:37 +0000</pubDate>
+            <sparkle:version>0.6.0</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.0/PsyNeuView-0.6.0.dmg"
+                       length="52070372"
+                       type="application/octet-stream"
+                       sparkle:edSignature="4TqrRgoAFJFCYIV/q1eMuRy9Ira2bPFJXRO0E22GsSKSU0wOK/ksv0LuHvjsrFFIKGiT9+VroiP7K5J5ISSsCQ==" />
+        </item>
+        <item>
             <title>Version 0.5.22</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.5.16.</p>
