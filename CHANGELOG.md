@@ -9,6 +9,27 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.0
+
+_Released 2026-10-13 · [`v0.6.0`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.0)_
+
+This release carries PsyNeuView 0.6.0. PsyNeuView and its Mac app are now open source (Apache-2.0).
+
+- After an update, the window always shows the new version. Before, it could keep showing an older page, with features like Autosave or the new arrow pointer missing.
+- When an update is waiting, the toolbar says so, with Install and Later.
+- Editing the same model in PsyNeuView and another editor (such as PyCharm) no longer overwrites the other editor's changes, and "Load from disk" always reads the file as it is now.
+- Walkthrough narration reads in a good built-in voice; choose the voice and speed in Settings > Tutorials and Voice, with a sample and help getting better voices.
+- The walkthrough bar's text is larger and easier to read; the Tutorials menu's sections fold.
+- The graph legend starts folded; Settings > Appearance chooses.
+- Toolbar buttons no longer break onto two lines in a narrow window.
+- Exporting to MDF warns about parts of a model that won't survive the round trip.
+- See a layer's values as a grid, like the Hopfield letters.
+- Report a Problem makes sure the report file is attached, by Gmail, Outlook or Share, and hides your home folder throughout.
+- The page's dialogs ("unsaved changes, load anyway?") now ask instead of silently cancelling.
+- All 14 course walkthroughs, and the Learn tab trains models that don't use backpropagation (TD, Hebbian).
+- If you use your own PsyNeuLink checkout, updates now keep using it, and Settings shows the PsyNeuLink actually in use, with one click to fix any mismatch.
+- Fixes: a node name with a newline or quote no longer crashes the app; run errors say what really went wrong; switching PsyNeuLink to your own checkout no longer breaks loading.
+
 ## PsyNeuView 0.5.22
 
 _Released 2026-10-11 · [`v0.5.22`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.22)_
