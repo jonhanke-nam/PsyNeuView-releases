@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.1.</p>
+<ul>
+<li>A new layout, Like show_graph, arranges a model the way PsyNeuLink&#x27;s show_graph() draws it: the same rows, order and bottom-to-top flow. Pick it from the layout menu in the graph toolbar.</li>
+<li>In that layout the arrows follow show_graph&#x27;s own curves too. Move a node and its arrows go back to normal routing.</li>
+<li>Settings &gt; Appearance &gt; Automatic layout chooses how models are arranged when they have no layout of your own: Layered, Like show_graph, Radial or Force.</li>
+<li>Opening a model in the Like show_graph layout is about as fast as Layered, and switching back to it is instant.</li>
+<li>The show_graph tab no longer works in the background when it isn&#x27;t open, so models open and reload faster.</li>
+</ul>
+            ]]></description>
+            <pubDate>Thu, 15 Oct 2026 18:31:56 +0000</pubDate>
+            <sparkle:version>0.6.1</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.1/PsyNeuView-0.6.1.dmg"
+                       length="52775236"
+                       type="application/octet-stream"
+                       sparkle:edSignature="gg2Ft+Md3vRnlfk2hyWLfMzfJYOMYqD9+AOPy9CxjvPHcnjuckopyib5Y8c5GH0pL21G+bcFCAqQe5mHmfMGDg==" />
+        </item>
+        <item>
             <title>Version 0.6.0</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.0. PsyNeuView and its Mac app are now open source (Apache-2.0).</p>
