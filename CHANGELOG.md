@@ -9,6 +9,18 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.1
+
+_Released 2026-10-15 · [`v0.6.1`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.1)_
+
+This release carries PsyNeuView 0.6.1.
+
+- A new layout, Like show_graph, arranges a model the way PsyNeuLink's show_graph() draws it: the same rows, order and bottom-to-top flow. Pick it from the layout menu in the graph toolbar.
+- In that layout the arrows follow show_graph's own curves too. Move a node and its arrows go back to normal routing.
+- Settings > Appearance > Automatic layout chooses how models are arranged when they have no layout of your own: Layered, Like show_graph, Radial or Force.
+- Opening a model in the Like show_graph layout is about as fast as Layered, and switching back to it is instant.
+- The show_graph tab no longer works in the background when it isn't open, so models open and reload faster.
+
 ## PsyNeuView 0.6.0
 
 _Released 2026-10-13 · [`v0.6.0`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.0)_
