@@ -9,6 +9,20 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.2
+
+_Released 2026-10-16 · [`v0.6.2`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.2)_
+
+This release carries PsyNeuView 0.6.2.
+
+- Models now open in the Like show_graph layout, arranged the way PsyNeuLink's show_graph() draws them. Layered, Radial and Force are still in the layout menu, and Settings > Appearance > Automatic layout picks the one models open with.
+- The Layered layout works with a nested composition opened in place: its members stack in one column inside its frame, instead of the layout failing.
+- The Force and Radial layouts work in the flattened view: compositions keep their size and don't overlap, and Fit shows the whole model.
+- If you run your own PsyNeuView checkout and it is older than the one included with the app, an app update now switches to the included copy and says so. Your checkout is kept, and you can switch back in Settings > Developer. On other launches you're asked instead.
+- Settings, About and problem reports show your checkout's PsyNeuView version.
+- When PsyNeuView's history has been rebuilt, the app offers to move your checkout onto it, keeping your own commits on a backup branch.
+- Fixed: the app could occasionally wait forever on a quick command that had already finished, such as a git check while starting.
+
 ## PsyNeuView 0.6.1
 
 _Released 2026-10-15 · [`v0.6.1`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.1)_
