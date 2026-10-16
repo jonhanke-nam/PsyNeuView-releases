@@ -470,7 +470,8 @@ Where a new node gets written
 
 _Released 2026-09-16 · [`v0.5.7`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.5.7)_
 
-Brings the app up to PsyNeuView 0.5.1. Everything a tester and the PI reported is in this build — 0.5.6 fixed the installer and the app
+Brings the app up to PsyNeuView 0.5.1. Everything a tester and the PI
+reported is in this build — 0.5.6 fixed the installer and the app
 shell, but bundled a PsyNeuView from before that work landed.
 
 Graph edits reach the file
@@ -581,7 +582,8 @@ saying what is happening while it does.
   to install it.
 
 - The release process now measures how long starting actually takes and refuses
-  to publish if it approaches the limit the app allows — the failure a tester reported on 0.5.3 would have been caught before it shipped.
+  to publish if it approaches the limit the app allows — the failure a tester
+  reported on 0.5.3 would have been caught before it shipped.
 
 ## PsyNeuView 0.5.4 — a slow start is no longer a failure
 
