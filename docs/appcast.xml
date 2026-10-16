@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.2</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.2.</p>
+<ul>
+<li>Models now open in the Like show_graph layout, arranged the way PsyNeuLink&#x27;s show_graph() draws them. Layered, Radial and Force are still in the layout menu, and Settings &gt; Appearance &gt; Automatic layout picks the one models open with.</li>
+<li>The Layered layout works with a nested composition opened in place: its members stack in one column inside its frame, instead of the layout failing.</li>
+<li>The Force and Radial layouts work in the flattened view: compositions keep their size and don&#x27;t overlap, and Fit shows the whole model.</li>
+<li>If you run your own PsyNeuView checkout and it is older than the one included with the app, an app update now switches to the included copy and says so. Your checkout is kept, and you can switch back in Settings &gt; Developer. On other launches you&#x27;re asked instead.</li>
+<li>Settings, About and problem reports show your checkout&#x27;s PsyNeuView version.</li>
+<li>When PsyNeuView&#x27;s history has been rebuilt, the app offers to move your checkout onto it, keeping your own commits on a backup branch.</li>
+<li>Fixed: the app could occasionally wait forever on a quick command that had already finished, such as a git check while starting.</li>
+</ul>
+            ]]></description>
+            <pubDate>Fri, 16 Oct 2026 18:35:27 +0000</pubDate>
+            <sparkle:version>0.6.2</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.2/PsyNeuView-0.6.2.dmg"
+                       length="52783517"
+                       type="application/octet-stream"
+                       sparkle:edSignature="fr84cNQX3SWAi6r94t+xgBh3eLXGeOKyEX3kNe57ZBZYwevTrO2125Z27J4cE4NVk7Ch47jSmuC+TxrwnkqzBw==" />
+        </item>
+        <item>
             <title>Version 0.6.1</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.1.</p>
