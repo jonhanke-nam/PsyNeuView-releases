@@ -7,6 +7,31 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.3</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.3.</p>
+<ul>
+<li>The update notice says when the waiting version was released, and About says when the app was built and PsyNeuView released.</li>
+<li>Node outlines are heavier and set by one width in Settings &gt; Appearance; emphasis and selection scale with it.</li>
+<li>Settings &gt; Appearance &gt; Scheduling arrows can hide them, as show_graph does.</li>
+<li>Models open in the flattened view. Each view keeps its own Auto or Custom layout, and edges are shaped only in a custom layout.</li>
+<li>Like show_graph matches show_graph more closely: frame sizes and headers, edges into an open composition, learning with nested compositions, and Input above, Output below.</li>
+<li>Parallel projections keep to their own ports, and Layered no longer overlaps wide boxes.</li>
+<li>Fit always shows the whole graph, edge curves included.</li>
+<li>Every tutorial step now has a spoken caption, and the tutorial screenshots are up to date.</li>
+<li>Fixed: the autosave delay is kept however Settings is closed.</li>
+</ul>
+            ]]></description>
+            <pubDate>Mon, 26 Oct 2026 10:20:22 +0000</pubDate>
+            <sparkle:version>0.6.3</sparkle:version>
+            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.3/PsyNeuView-0.6.3.dmg"
+                       length="52783637"
+                       type="application/octet-stream"
+                       sparkle:edSignature="IRj3dXAnNZnDEjj5asULQwSB9xXb0Se+fz/14t1rCzLcEEP/EZVDl5sqCIKscC/TU4+2Nx5O4y6A2ZhnHp74Cg==" />
+        </item>
+        <item>
             <title>Version 0.6.2</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.2.</p>
