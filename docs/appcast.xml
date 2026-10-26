@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.4</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.4.</p>
+<ul>
+<li>The tutorial bar gives each step&#x27;s text full-width lines above its buttons, instead of a narrow column that made the bar tall.</li>
+<li>The tutorial&#x27;s highlight stays inside the window, so it outlines the toolbar instead of drawing a stray line across the window.</li>
+</ul>
+            ]]></description>
+            <pubDate>Mon, 26 Oct 2026 19:42:34 +0000</pubDate>
+            <sparkle:version>0.6.4</sparkle:version>
+            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.4/PsyNeuView-0.6.4.dmg"
+                       length="52783824"
+                       type="application/octet-stream"
+                       sparkle:edSignature="MJDCX9LZzAlhMwhJJLfTxWGxCkW6LnGRvLVz6+4B/IWTUOUvfTtP50Ji0PvTm6QRF3KYVb7YuVJRRx0H6/0uBQ==" />
+        </item>
+        <item>
             <title>Version 0.6.3</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.3.</p>
