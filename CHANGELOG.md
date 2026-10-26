@@ -9,6 +9,15 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.4
+
+_Released 2026-10-26 · [`v0.6.4`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.4)_
+
+This release carries PsyNeuView 0.6.4.
+
+- The tutorial bar gives each step's text full-width lines above its buttons, instead of a narrow column that made the bar tall.
+- The tutorial's highlight stays inside the window, so it outlines the toolbar instead of drawing a stray line across the window.
+
 ## PsyNeuView 0.6.3
 
 _Released 2026-10-26 · [`v0.6.3`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.3)_
