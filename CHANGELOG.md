@@ -9,6 +9,22 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.3
+
+_Released 2026-10-26 · [`v0.6.3`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.3)_
+
+This release carries PsyNeuView 0.6.3.
+
+- The update notice says when the waiting version was released, and About says when the app was built and PsyNeuView released.
+- Node outlines are heavier and set by one width in Settings > Appearance; emphasis and selection scale with it.
+- Settings > Appearance > Scheduling arrows can hide them, as show_graph does.
+- Models open in the flattened view. Each view keeps its own Auto or Custom layout, and edges are shaped only in a custom layout.
+- Like show_graph matches show_graph more closely: frame sizes and headers, edges into an open composition, learning with nested compositions, and Input above, Output below.
+- Parallel projections keep to their own ports, and Layered no longer overlaps wide boxes.
+- Fit always shows the whole graph, edge curves included.
+- Every tutorial step now has a spoken caption, and the tutorial screenshots are up to date.
+- Fixed: the autosave delay is kept however Settings is closed.
+
 ## PsyNeuView 0.6.2
 
 _Released 2026-10-16 · [`v0.6.2`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.2)_
