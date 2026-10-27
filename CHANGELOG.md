@@ -9,6 +9,16 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.5
+
+_Released 2026-10-27 · [`v0.6.5`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.5)_
+
+This release carries PsyNeuView 0.6.5.
+
+- Developers can test new versions before everyone else: Settings > Developer > Get release candidates. Your usual update notice then also offers release candidates, labelled as such.
+- With narration on, a speaker marks the caption being read aloud, so you know which line you're hearing.
+- Long tutorial titles wrap instead of pushing the buttons onto a row of their own.
+
 ## PsyNeuView 0.6.4
 
 _Released 2026-10-26 · [`v0.6.4`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.4)_
