@@ -9,6 +9,20 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.6
+
+_Released 2026-10-27 · [`v0.6.6`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.6)_
+
+This release carries PsyNeuView 0.6.8.
+
+- A spinning wheel shows whenever PsyNeuView takes longer than 0.2 s: saving, undo, loading, layouts, runs (Settings > General > Busy indicator).
+- With narration on, the line being read leads the tutorial bar under a "Narration" heading, with the voice in use, and lights up while it's spoken. Click "Narration" to choose the voice.
+- Tutorials mark what to look at with a thicker, pulsing ring instead of a gliding arrow. Settings > Tutorials and Voice > Highlight sets its thickness, pulse and colour, and can bring the arrow back.
+- The ring no longer runs over text next to what it marks.
+- New pointer choices for the graph: a crosshair and a circle, which show exactly what you're pointing at (Settings > Appearance > Pointer).
+- Node outlines are 4 px by default, so the graph reads more clearly, and the lines between nodes have their own width setting (Settings > Appearance > Lines between nodes).
+- Settings > Developer lists the most useful settings first. "Developer mode" is now "Show what's still under development", last.
+
 ## PsyNeuView 0.6.5
 
 _Released 2026-10-27 · [`v0.6.5`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.5)_
