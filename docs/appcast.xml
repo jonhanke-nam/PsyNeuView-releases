@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.6-rc1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.6.</p>
+<ul>
+<li>With narration on, the line being read leads the tutorial bar and lights up while it&#x27;s spoken. The step&#x27;s full instruction sits under it as details.</li>
+<li>With narration off, the tutorial bar is unchanged.</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 27 Oct 2026 09:47:30 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.6rc1</sparkle:version>
+            <sparkle:shortVersionString>0.6.6-rc1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.6-rc1/PsyNeuView-0.6.6-rc1.dmg"
+                       length="52783015"
+                       type="application/octet-stream"
+                       sparkle:edSignature="6W1ZQN8Z0Fb74vybSN2hLI7Uej8Dyd80Zg75Yf18HtBJyKYkQr2/J6phnEK8mgU6DQaR1ja5yeVo/TvQ0rLuDQ==" />
+        </item>
+        <item>
             <title>Version 0.6.5</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.5.</p>
