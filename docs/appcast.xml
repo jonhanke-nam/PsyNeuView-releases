@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.5</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.5.</p>
+<ul>
+<li>Developers can test new versions before everyone else: Settings &gt; Developer &gt; Get release candidates. Your usual update notice then also offers release candidates, labelled as such.</li>
+<li>With narration on, a speaker marks the caption being read aloud, so you know which line you&#x27;re hearing.</li>
+<li>Long tutorial titles wrap instead of pushing the buttons onto a row of their own.</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 27 Oct 2026 05:32:49 +0000</pubDate>
+            <sparkle:version>0.6.5</sparkle:version>
+            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.5/PsyNeuView-0.6.5.dmg"
+                       length="52788184"
+                       type="application/octet-stream"
+                       sparkle:edSignature="qstNgILzupDL26VJSBJ/Xw7pVvCLvBecUzmtRJKILAXr5gIAQN60TbtwXQu4slzoj2g5THspEG5WohYt4QHJBw==" />
+        </item>
+        <item>
             <title>Version 0.6.4</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.4.</p>
