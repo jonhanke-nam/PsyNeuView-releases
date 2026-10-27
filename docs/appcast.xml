@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.6-rc2</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.7.</p>
+<ul>
+<li>With narration on, the line being read leads the tutorial bar under a &quot;Narration&quot; heading, with the voice in use, and lights up while it&#x27;s spoken. The step&#x27;s full instruction sits under it as details.</li>
+<li>Click &quot;Narration&quot; to choose the voice.</li>
+<li>Settings &gt; Developer lists the most useful settings first. The switch that shows features still under development is now called &quot;Show what&#x27;s still under development&quot; and comes last.</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 27 Oct 2026 12:14:27 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.6rc2</sparkle:version>
+            <sparkle:shortVersionString>0.6.6-rc2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.6-rc2/PsyNeuView-0.6.6-rc2.dmg"
+                       length="52788409"
+                       type="application/octet-stream"
+                       sparkle:edSignature="vhw+fs2vSOvKViUOKibLqPVhPHC8gpr0mbYGR1k0o4bm40WxP3XF7gRIvlUP7KHBGjiM/PEtqzO3lY6ffjR6Bg==" />
+        </item>
+        <item>
             <title>Version 0.6.6-rc1</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.6.</p>
