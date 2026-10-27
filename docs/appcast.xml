@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.6</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.8.</p>
+<ul>
+<li>A spinning wheel shows whenever PsyNeuView takes longer than 0.2 s: saving, undo, loading, layouts, runs (Settings &gt; General &gt; Busy indicator).</li>
+<li>With narration on, the line being read leads the tutorial bar under a &quot;Narration&quot; heading, with the voice in use, and lights up while it&#x27;s spoken. Click &quot;Narration&quot; to choose the voice.</li>
+<li>Tutorials mark what to look at with a thicker, pulsing ring instead of a gliding arrow. Settings &gt; Tutorials and Voice &gt; Highlight sets its thickness, pulse and colour, and can bring the arrow back.</li>
+<li>The ring no longer runs over text next to what it marks.</li>
+<li>New pointer choices for the graph: a crosshair and a circle, which show exactly what you&#x27;re pointing at (Settings &gt; Appearance &gt; Pointer).</li>
+<li>Node outlines are 4 px by default, so the graph reads more clearly, and the lines between nodes have their own width setting (Settings &gt; Appearance &gt; Lines between nodes).</li>
+<li>Settings &gt; Developer lists the most useful settings first. &quot;Developer mode&quot; is now &quot;Show what&#x27;s still under development&quot;, last.</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 27 Oct 2026 17:47:54 +0000</pubDate>
+            <sparkle:version>0.6.6</sparkle:version>
+            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.6/PsyNeuView-0.6.6.dmg"
+                       length="52800186"
+                       type="application/octet-stream"
+                       sparkle:edSignature="Uda+xhAAL9sfD92I20dapZG74kyY4WCN3qcqZJ876oNtVW8c6eU2QZvqmVa/SjA0+rFYEeB1hyhw4aS+TAgACw==" />
+        </item>
+        <item>
             <title>Version 0.6.6-rc3</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.8.</p>
