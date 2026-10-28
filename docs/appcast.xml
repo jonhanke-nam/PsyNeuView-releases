@@ -7,6 +7,34 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.7-rc1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.9.</p>
+<ul>
+<li>The graph gets most of the window: the code editor starts narrower and the panels below it shorter. Fit now fills the canvas, with a small even margin.</li>
+<li>Text is about 10% bigger by default. Settings &gt; Appearance &gt; Text size offers Small (the old size), Default and Large.</li>
+<li>Nodes show just their name by default, as PsyNeuLink&#x27;s show_graph() draws them. &quot;Type and role tags&quot; brings back the tags and functions.</li>
+<li>Lines between nodes have their arrowhead at the end, where they meet the node they feed.</li>
+<li>One &quot;Advanced Graph View Options&quot; panel replaces the row of toolbar toggles and the More menu. It stays open while you change things, and groups the options as Nodes, Layout, Lines and What the graph shows.</li>
+<li>Ports are hidden by default. &quot;Show ports&quot;, in the same panel, shows them on the graph and in the Components panel.</li>
+<li>The dashed scheduling arrows are hidden by default. Turn them on in Settings &gt; Appearance.</li>
+<li>Settings &gt; Appearance &gt; Components panel chooses whether the panel opens as the word list or the icon strip.</li>
+<li>&quot;Watching for changes&quot; now sits at the end of the diagnostics bar. Click it to see what it means, or to pause it.</li>
+<li>Clicking the &quot;read only&quot; tag explains why a PsyNeuLink file is read only and offers Save a copy as….</li>
+<li>Menus open above the tutorial&#x27;s highlight ring instead of behind it.</li>
+</ul>
+            ]]></description>
+            <pubDate>Wed, 28 Oct 2026 19:25:54 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.7rc1</sparkle:version>
+            <sparkle:shortVersionString>0.6.7-rc1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.7-rc1/PsyNeuView-0.6.7-rc1.dmg"
+                       length="52799578"
+                       type="application/octet-stream"
+                       sparkle:edSignature="noB511YhcHUTigZEwPhBT1EkYaxKHbhtET+Q8VLaGge3ErCgevw2wCuG8kZhXSd8RZp1LTtL8BmfSuzHSjJrDw==" />
+        </item>
+        <item>
             <title>Version 0.6.6</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.8.</p>
