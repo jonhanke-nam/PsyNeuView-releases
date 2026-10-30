@@ -7,6 +7,43 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.7-rc3</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.9.</p>
+<ul>
+<li>The graph gets most of the window: the code editor starts narrower and the panels below it shorter. Fit now fills the canvas, with a small even margin.</li>
+<li>Text is about 10% bigger by default. Settings &gt; Appearance &gt; Text size offers Small (the old size), Default and Large.</li>
+<li>Nodes show just their name by default, as PsyNeuLink&#x27;s show_graph() draws them. &quot;Type and role tags&quot; brings back the tags and functions.</li>
+<li>Lines between nodes have their arrowhead at the end, where they meet the node they feed.</li>
+<li>One &quot;Advanced Graph View Options&quot; panel replaces the row of toolbar toggles and the More menu. It stays open while you change things, and groups the options as Nodes, Layout, Lines and What the graph shows.</li>
+<li>Ports are hidden by default. &quot;Show ports&quot;, in the same panel, shows them on the graph and in the Components panel.</li>
+<li>The dashed scheduling arrows are hidden by default. Turn them on in Settings &gt; Appearance.</li>
+<li>Settings &gt; Appearance &gt; Components panel chooses whether the panel opens as the word list or the icon strip.</li>
+<li>&quot;Watching for changes&quot; now sits at the end of the diagnostics bar. Click it to see what it means, or to pause it.</li>
+<li>Clicking the &quot;read only&quot; tag explains why a PsyNeuLink file is read only and offers Save a copy as….</li>
+<li>Menus open above the tutorial&#x27;s highlight ring instead of behind it.</li>
+<li>A new PsyNeuLink Tutorials section in the Tutorials menu walks through PsyNeuLink&#x27;s own tutorial, step by step, in fourteen lessons: the Tutorial notebook (mechanisms, compositions, projections, the Stroop model, a pretrained Stroop model, building compositions) and the Basics and Primer (configurations, execution, control, parameters, displaying and logging, learning, customization).</li>
+<li>The tutorial&#x27;s highlight goes round a small button or tab instead of cutting through its label.</li>
+<li>Models with control loops are laid out the right way up.</li>
+<li>Changing a function&#x27;s parameter in the Inspector edits only that mechanism&#x27;s function, and keeps the file valid.</li>
+<li>Settings &gt; Tutorials can hide the Cognitive Neuroscience Course from the Tutorials menu. It shows by default.</li>
+<li>The busy wheel no longer spins at startup while PsyNeuView checks which execution modes are available.</li>
+<li>Settings &gt; Pointer size now also sizes the hand pointer, and the arrow shows over a line&#x27;s control points.</li>
+<li>In the Open menu, a section&#x27;s name stays on one line beside a long folder path.</li>
+<li>The tutorial pictures in the documentation show the current look.</li>
+</ul>
+            ]]></description>
+            <pubDate>Fri, 30 Oct 2026 06:43:53 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.7rc3</sparkle:version>
+            <sparkle:shortVersionString>0.6.7-rc3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.7-rc3/PsyNeuView-0.6.7-rc3.dmg"
+                       length="52789653"
+                       type="application/octet-stream"
+                       sparkle:edSignature="Oj6CPwyRJlE3R4w/jA5RBsoz+LY6B0sFumcUoo9CPzp4FGF+vKY50+FJKzbsOZC3M82+AwG1edM4dDspwxD9AA==" />
+        </item>
+        <item>
             <title>Version 0.6.7-rc2</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.9.</p>
