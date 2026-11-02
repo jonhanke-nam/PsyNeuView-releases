@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.8-rc1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.10.</p>
+<ul>
+<li>The show_graph tab, the Like show_graph layout, Learn and MDF export now work on PsyNeuLink library models that run themselves when loaded, such as the Botvinick conflict-monitoring model and Montague, Dayan and Sejnowski (1996). Before, they showed an error instead.</li>
+<li>Undo while autosave is on no longer says &quot;Couldn&#x27;t get show_graph&#x27;s layout … File not found&quot;, and the graph keeps its layout.</li>
+<li>When a model&#x27;s own code fails, the message says what kind of error it was and on which line, instead of showing just a name.</li>
+</ul>
+            ]]></description>
+            <pubDate>Mon, 02 Nov 2026 04:49:39 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.8rc1</sparkle:version>
+            <sparkle:shortVersionString>0.6.8-rc1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.8-rc1/PsyNeuView-0.6.8-rc1.dmg"
+                       length="52841704"
+                       type="application/octet-stream"
+                       sparkle:edSignature="m/TbZyVyF3J6RrMI3CZsNUFyIjzM1MqhK0bobI9vA4IV+HaaXMHFzHk6OdXpfxCTuK3nxA60AedRB5o/iJ8pCA==" />
+        </item>
+        <item>
             <title>Version 0.6.7</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.9.</p>
