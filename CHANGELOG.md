@@ -9,6 +9,16 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.8
+
+_Released 2026-11-03 · [`v0.6.8`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.8)_
+
+This release carries PsyNeuView 0.6.10.
+
+- The show_graph tab, the Like show_graph layout, Learn and MDF export now work on PsyNeuLink library models that run themselves when loaded, such as the Botvinick conflict-monitoring model and Montague, Dayan and Sejnowski (1996). Before, they showed an error instead.
+- Undo while autosave is on no longer says "Couldn't get show_graph's layout … File not found", and the graph keeps its layout.
+- When a model's own code fails, the message says what kind of error it was and on which line, instead of showing just a name.
+
 ## PsyNeuView 0.6.7
 
 _Released 2026-10-31 · [`v0.6.7`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.7)_
