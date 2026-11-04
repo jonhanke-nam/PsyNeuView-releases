@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.9-rc1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.11.</p>
+<ul>
+<li>The app now opens with the graph alone. Press Command-1, 2, 3 or 4 to show or hide the graph, code, Inspector and Components panels. A layout you already chose is kept, and tutorials show every panel, then put your layout back.</li>
+<li>The graph looks more like show_graph: brighter colours, heavier input and output outlines, octagons for feedback senders, and rectangles for collapsed compositions. Hover over a shape to see what it means.</li>
+<li>A composition&#x27;s corner buttons are bigger and now work as named: Enter, Inset and Collapse. Entering a composition and coming back out keeps your view.</li>
+<li>Clicking Open no longer spins the busy wheel while PsyNeuLink&#x27;s examples are checked.</li>
+<li>The busy wheel can show how long it has been waiting, and problem reports now include one timestamped timeline of your actions, errors and delays. Action logging can be turned off in Settings.</li>
+<li>The local server is now stricter about which requests it accepts. This is a security improvement, and we recommend updating.</li>
+</ul>
+            ]]></description>
+            <pubDate>Wed, 04 Nov 2026 15:25:53 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.9rc1</sparkle:version>
+            <sparkle:shortVersionString>0.6.9-rc1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.9-rc1/PsyNeuView-0.6.9-rc1.dmg"
+                       length="52875359"
+                       type="application/octet-stream"
+                       sparkle:edSignature="i40Btv3OXyZwGLAHPiTISv4C6uwX7gt5dJSfAQIgFTLD2peVhC/Zny55aSFLNlbnGUTCRAYfzx5XD/FRqU17AA==" />
+        </item>
+        <item>
             <title>Version 0.6.8</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.10.</p>
