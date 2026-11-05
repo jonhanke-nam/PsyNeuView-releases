@@ -7,6 +7,34 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.10-rc1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.12. Version 0.6.9 was never released to everyone, so its changes are included here.</p>
+<ul>
+<li>The app opens with the graph alone. Press Command-1, 2, 3 or 4 to show or hide the graph, code, Inspector and Components panels. A layout you already chose is kept, and tutorials show every panel, then put your layout back.</li>
+<li>The graph looks more like show_graph: bigger node text, smaller nodes, the same green, red and purple, heavier input and output outlines, octagons for feedback senders, and rectangles for collapsed compositions. Hover over a shape to see what it means. The &quot;view only&quot; tag on a node is now hidden unless you turn it on in Settings.</li>
+<li>Inputs sit on the bottom and outputs on top in the default layout, and three reference models were re-arranged to follow this. Reference model copies you already have keep their old arrangement.</li>
+<li>A composition&#x27;s corner buttons are bigger and now work as named: Enter, Inset and Collapse. Undo and Redo after them put your view back and name the step, such as &quot;Entered EM&quot;.</li>
+<li>An expanded composition no longer lands on the nodes around it, including when you drag it, and connections now reach the nodes inside it after you collapse and expand it.</li>
+<li>There is now one busy wheel, in the middle of the graph, with the time it has been waiting below it. You can move the time to the centre of the wheel or turn it off in Settings.</li>
+<li>If you try to hide the last panel, an alert says why and what to do. You can allow a blank screen in Settings, and choose which panels open when a model loads on it.</li>
+<li>A tutorial now asks before you leave it or start one over your work, and can open in a new window.</li>
+<li>Clicking Open no longer spins the busy wheel while PsyNeuLink&#x27;s examples are checked.</li>
+<li>Problem reports now include one timestamped timeline of your actions, errors and delays. Action logging can be turned off in Settings.</li>
+<li>The local server is now stricter about which requests it accepts. This is a security improvement, and we recommend updating.</li>
+</ul>
+            ]]></description>
+            <pubDate>Thu, 05 Nov 2026 05:00:08 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.10rc1</sparkle:version>
+            <sparkle:shortVersionString>0.6.10-rc1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.10-rc1/PsyNeuView-0.6.10-rc1.dmg"
+                       length="52889108"
+                       type="application/octet-stream"
+                       sparkle:edSignature="U6q7xPpQgSNmkr09OJP03UDbtFW9b8TKxLicZiLaYynbJA21Muywr4+bXjVhwRTYZctOyiHsnDLxDIaGE5l/CQ==" />
+        </item>
+        <item>
             <title>Version 0.6.9-rc1</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.11.</p>
