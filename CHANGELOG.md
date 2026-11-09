@@ -9,6 +9,28 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.10
+
+_Released 2026-11-09 · [`v0.6.10`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.10)_
+
+This release carries PsyNeuView 0.6.12. Version 0.6.9 was never released to everyone, so its changes are included here.
+
+- Walkthroughs are now narrated by a recorded voice that comes with the app and sounds the same on every Mac. Heart is the default, and Michael is the other choice, in Settings ▸ Tutorials and Voice ▸ Voice. Your Mac's own voices are still there. Turn narration on with the speaker button on the walkthrough bar.
+- The app opens with the graph alone. Press Command-1, 2, 3 or 4 to show or hide the graph, code, Inspector and Components panels. A layout you already chose is kept, and tutorials show every panel, then put your layout back.
+- The graph looks more like show_graph: bigger node text, smaller nodes, the same green, red and purple, heavier input and output outlines, octagons for feedback senders, and rectangles for collapsed compositions. Hover over a shape to see what it means. The "view only" tag on a node is now hidden unless you turn it on in Settings.
+- Inputs sit on the bottom and outputs on top in the default layout, and three reference models were re-arranged to follow this. Reference model copies you already have keep their old arrangement.
+- A new setting, Settings ▸ Appearance ▸ Keep inputs on the bottom and outputs on top, applies this to automatic layouts (on by default) and can also hold inputs and outputs on their rows while you drag. The Layout menu has Tidy inputs and outputs for a saved layout.
+- A composition's corner buttons are bigger and now work as named: Enter, Inset and Collapse. Undo and Redo after them put your view back and name the step, such as "Entered EM". Undo in the flattened view no longer changes the nested view's saved layout.
+- An expanded composition no longer lands on the nodes around it, including when you drag it, and connections now reach the nodes inside it after you collapse and expand it.
+- There is now one busy wheel, always in the middle of the window, with the time it has been waiting below it. You can move the time to the centre of the wheel or turn it off in Settings.
+- If you try to hide the last panel, an alert says why and what to do. You can allow a blank screen in Settings, and choose which panels open when a model loads on it.
+- A tutorial now asks before you leave it or start one over your work, and can open in a new window.
+- You can now bend an arrow or move its ends in any layout: in Auto, the layout switches to Custom where it stands. A reshaped arrow is saved straight away and can be undone, and Undo puts the layout back to Auto if the reshape had switched it to Custom. Moving an arrow, or the graph reloading after an edit, no longer moves nodes, and shaped arrows keep their shape.
+- Dropping a new .py file onto the app now adds it to your models folder and opens it, instead of failing.
+- Clicking Open no longer spins the busy wheel while PsyNeuLink's examples are checked.
+- Problem reports now include one timestamped timeline of your actions, errors and delays. Action logging can be turned off in Settings.
+- The local server is now stricter about which requests it accepts. This is a security improvement, and we recommend updating.
+
 ## PsyNeuView 0.6.8
 
 _Released 2026-11-03 · [`v0.6.8`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.8)_
