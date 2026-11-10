@@ -9,6 +9,17 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.11
+
+_Released 2026-11-10 · [`v0.6.11`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.11)_
+
+This release carries PsyNeuView 0.6.13.
+
+- Walkthroughs are narrated by Heart, the recorded voice, for everyone. If you had chosen one of your Mac's voices before recorded voices came (often Karen), that choice gives way to Heart once. You can still choose any voice in Settings ▸ Tutorials and Voice ▸ Voice, and that choice is kept.
+- The recorded voices now play in the Mac app. Before, they could fall back to your Mac's own voice.
+- While a walkthrough is running, Settings and other dialogs stop above the walkthrough bar, so the bar no longer covers their last rows.
+- A node's right-click menu is drawn above the walkthrough's pulsing ring.
+
 ## PsyNeuView 0.6.10
 
 _Released 2026-11-09 · [`v0.6.10`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.10)_
