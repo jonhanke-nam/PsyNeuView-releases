@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.11</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.13.</p>
+<ul>
+<li>Walkthroughs are narrated by Heart, the recorded voice, for everyone. If you had chosen one of your Mac&#x27;s voices before recorded voices came (often Karen), that choice gives way to Heart once. You can still choose any voice in Settings ▸ Tutorials and Voice ▸ Voice, and that choice is kept.</li>
+<li>The recorded voices now play in the Mac app. Before, they could fall back to your Mac&#x27;s own voice.</li>
+<li>While a walkthrough is running, Settings and other dialogs stop above the walkthrough bar, so the bar no longer covers their last rows.</li>
+<li>A node&#x27;s right-click menu is drawn above the walkthrough&#x27;s pulsing ring.</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 10 Nov 2026 05:07:54 +0000</pubDate>
+            <sparkle:version>0.6.11</sparkle:version>
+            <sparkle:shortVersionString>0.6.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.11/PsyNeuView-0.6.11.dmg"
+                       length="67621644"
+                       type="application/octet-stream"
+                       sparkle:edSignature="2Zk8s8umf/rB16sYdn+nLjFAFxN+l3FuYrtZaAeIZWaGiEkeFRGt6OCA5z27oaoqVFMG9lqx6a2f3PHB7CgnCw==" />
+        </item>
+        <item>
             <title>Version 0.6.10</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.12. Version 0.6.9 was never released to everyone, so its changes are included here.</p>
