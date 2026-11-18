@@ -9,6 +9,51 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.12
+
+_Released 2026-11-18 · [`v0.6.12`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.12)_
+
+This release carries PsyNeuView 0.6.14.
+
+Starting and setting up
+- If PsyNeuView was quit while it set itself up after an update, the next start finishes that setup, instead of waiting forever on "Starting the server".
+- If the server can't start, the starting window says so straight away, with the reason, instead of counting the minutes.
+- If your Mac isn't connected to the internet while PsyNeuView sets itself up (for example, just after it wakes), setup finishes from what it has already downloaded. If it can't, it tells you to connect and click Try Again.
+- Switching or updating PsyNeuLink in Settings is several times faster: it uses the same fast installer as setup, and reuses what setup already downloaded.
+- Setup installs exactly the package versions this release was tested with.
+
+Editing code
+- The graph follows the code you type without a busy wheel, and a typo or an undefined name is shown at once, before the model runs. Settings > General > Model files > Update the graph while typing sets how soon, or Off to update when you save.
+- An undefined name inside a scheduling condition is shown as an error on its line, every time, instead of being quietly skipped.
+
+The graph
+- Advanced Graph View Options > Interface nodes (CIMs) shows them at once, without saving first.
+- A click anywhere in or on a node selects it, including at its edge with ports shown.
+- Clicks follow the Mac's conventions: Control-click or right-click shows a menu and selects what you clicked; Command-click and Shift-click add to or take from the selection. Arrows and the empty canvas have menus of their own.
+- In the Components panel, click a component, then click the graph where it should go. Option-click puts down several; Esc puts it back.
+- Input and output outlines are thinner, closer to the other nodes.
+- Draw a connection by dragging from one node to another; if the receiver has several inputs, you choose which.
+- Arrows have their own menu, with Rename… and Delete; a scheduling arrow's menu edits or deletes its condition.
+- The node menu acts on everything selected: delete several nodes in one step that one Undo reverses.
+- A component placed by clicking inside a composition goes into that composition.
+- Nodes sit closer together and arrowheads are larger by default; Settings > Appearance > Spacing changes it.
+- A click inside an open composition's frame goes to what's under it; the frame's header still selects the frame. A click on a node is never taken by an arrow passing over it.
+
+- While you drag a connection, the nodes it can go to light up, and the others say why not. Dropping on a collapsed composition connects into one of its inputs.
+
+Tutorials
+- Every tutorial starts from a fresh copy of its model, with nothing selected and the graph shown as a new window shows it; your own copy of the model is never touched, and your view settings come back afterwards.
+- If you change the code partway through, the tutorial bar offers to undo your edits since the step began, or to start the tutorial over.
+- Leave a tutorial partway and start it again: it offers to resume at the step you left.
+- Replacing unsaved work offers to save it first.
+
+Settings and files
+- Settings > Appearance > Busy wheel > Style: choose how the busy indicator looks, including a PsyNeuLink-style network.
+- Settings has a search field: type part of a setting's name to find it in any section.
+- Every open window watches its own model file, so an edit made in another program is always picked up.
+
+PsyNeuView is spelled one way everywhere now; settings saved under the old spelling carry over.
+
 ## PsyNeuView 0.6.11
 
 _Released 2026-11-10 · [`v0.6.11`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.11)_
