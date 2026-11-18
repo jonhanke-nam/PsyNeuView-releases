@@ -7,6 +7,65 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.12-rc4</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.14.</p>
+<p>Starting and setting up</p>
+<ul>
+<li>If PsyNeuView was quit while it set itself up after an update, the next start finishes that setup, instead of waiting forever on &quot;Starting the server&quot;.</li>
+<li>If the server can&#x27;t start, the starting window says so straight away, with the reason, instead of counting the minutes.</li>
+<li>If your Mac isn&#x27;t connected to the internet while PsyNeuView sets itself up (for example, just after it wakes), setup finishes from what it has already downloaded. If it can&#x27;t, it tells you to connect and click Try Again.</li>
+<li>Switching or updating PsyNeuLink in Settings is several times faster: it uses the same fast installer as setup, and reuses what setup already downloaded.</li>
+<li>Setup installs exactly the package versions this release was tested with.</li>
+</ul>
+<p>Editing code</p>
+<ul>
+<li>The graph follows the code you type without a busy wheel, and a typo or an undefined name is shown at once, before the model runs. Settings &gt; General &gt; Model files &gt; Update the graph while typing sets how soon, or Off to update when you save.</li>
+<li>An undefined name inside a scheduling condition is shown as an error on its line, every time, instead of being quietly skipped.</li>
+</ul>
+<p>The graph</p>
+<ul>
+<li>Advanced Graph View Options &gt; Interface nodes (CIMs) shows them at once, without saving first.</li>
+<li>A click anywhere in or on a node selects it, including at its edge with ports shown.</li>
+<li>Clicks follow the Mac&#x27;s conventions: Control-click or right-click shows a menu and selects what you clicked; Command-click and Shift-click add to or take from the selection. Arrows and the empty canvas have menus of their own.</li>
+<li>In the Components panel, click a component, then click the graph where it should go. Option-click puts down several; Esc puts it back.</li>
+<li>Input and output outlines are thinner, closer to the other nodes.</li>
+<li>Draw a connection by dragging from one node to another; if the receiver has several inputs, you choose which.</li>
+<li>Arrows have their own menu, with Rename… and Delete; a scheduling arrow&#x27;s menu edits or deletes its condition.</li>
+<li>The node menu acts on everything selected: delete several nodes in one step that one Undo reverses.</li>
+<li>A component placed by clicking inside a composition goes into that composition.</li>
+<li>Nodes sit closer together and arrowheads are larger by default; Settings &gt; Appearance &gt; Spacing changes it.</li>
+<li>A click inside an open composition&#x27;s frame goes to what&#x27;s under it; the frame&#x27;s header still selects the frame. A click on a node is never taken by an arrow passing over it.</li>
+</ul>
+<ul>
+<li>While you drag a connection, the nodes it can go to light up, and the others say why not. Dropping on a collapsed composition connects into one of its inputs.</li>
+</ul>
+<p>Tutorials</p>
+<ul>
+<li>Every tutorial starts from a fresh copy of its model, with nothing selected and the graph shown as a new window shows it; your own copy of the model is never touched, and your view settings come back afterwards.</li>
+<li>If you change the code partway through, the tutorial bar offers to undo your edits since the step began, or to start the tutorial over.</li>
+<li>Leave a tutorial partway and start it again: it offers to resume at the step you left.</li>
+<li>Replacing unsaved work offers to save it first.</li>
+</ul>
+<p>Settings and files</p>
+<ul>
+<li>Settings &gt; Appearance &gt; Busy wheel &gt; Style: choose how the busy indicator looks, including a PsyNeuLink-style network.</li>
+<li>Settings has a search field: type part of a setting&#x27;s name to find it in any section.</li>
+<li>Every open window watches its own model file, so an edit made in another program is always picked up.</li>
+</ul>
+<p>PsyNeuView is spelled one way everywhere now; settings saved under the old spelling carry over.</p>
+            ]]></description>
+            <pubDate>Wed, 18 Nov 2026 14:41:25 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.12rc4</sparkle:version>
+            <sparkle:shortVersionString>0.6.12-rc4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.12-rc4/PsyNeuView-0.6.12-rc4.dmg"
+                       length="67832627"
+                       type="application/octet-stream"
+                       sparkle:edSignature="gF2vw/X7XCNV46yzh4FuqyeiWZSWqabyR63PoLrN2NFRRumWYaOn/RlNJ0s0zTq5LwFM9kgEwD/p8sur58A5Bg==" />
+        </item>
+        <item>
             <title>Version 0.6.12-rc3</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.14.</p>
