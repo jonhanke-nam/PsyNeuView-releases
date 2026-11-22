@@ -7,6 +7,34 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.13</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.15.</p>
+<p>The graph</p>
+<ul>
+<li>A Fit button in the graph&#x27;s corner brings the whole graph back into view after you&#x27;ve moved or zoomed it. Command-9 or Shift-1 does the same; Command-0 shows the graph at actual size. Settings &gt; Appearance can show the word &quot;Fit&quot; on the button instead of its icon.</li>
+<li>The window&#x27;s own Actual Size is now Option-Command-0, so Command-0 goes to the graph.</li>
+<li>The graph library&#x27;s credit no longer sits in the corner of the graph; it is listed in About, with the other credits.</li>
+</ul>
+<p>Components panel</p>
+<ul>
+<li>Every component in the Components panel has its own icon, so you can tell them apart at a glance. Some icons are adapted from MetaCell&#x27;s PsyNeuLinkView, used with permission; the rest are new.</li>
+</ul>
+<p>Help</p>
+<ul>
+<li>A Help menu lists every keyboard shortcut, marks any you&#x27;ve changed from the default, and links to Settings &gt; Keyboard shortcuts to change them. Help &gt; Keyboard Shortcuts in the Mac app&#x27;s menu bar opens the same list.</li>
+</ul>
+            ]]></description>
+            <pubDate>Sun, 22 Nov 2026 19:56:04 +0000</pubDate>
+            <sparkle:version>0.6.13</sparkle:version>
+            <sparkle:shortVersionString>0.6.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.13/PsyNeuView-0.6.13.dmg"
+                       length="67876053"
+                       type="application/octet-stream"
+                       sparkle:edSignature="LryMGWpi3cfPw2Zepq7Elv5NCBvwbUmF1urfz+RnaAYIzUwdn1Cwh1oA0takXqTaQhhQS8IZ/G2oDuWHavn2DA==" />
+        </item>
+        <item>
             <title>Version 0.6.13-rc1</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.15.</p>
