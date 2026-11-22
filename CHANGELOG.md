@@ -9,6 +9,23 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.13
+
+_Released 2026-11-22 · [`v0.6.13`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.13)_
+
+This release carries PsyNeuView 0.6.15.
+
+The graph
+- A Fit button in the graph's corner brings the whole graph back into view after you've moved or zoomed it. Command-9 or Shift-1 does the same; Command-0 shows the graph at actual size. Settings > Appearance can show the word "Fit" on the button instead of its icon.
+- The window's own Actual Size is now Option-Command-0, so Command-0 goes to the graph.
+- The graph library's credit no longer sits in the corner of the graph; it is listed in About, with the other credits.
+
+Components panel
+- Every component in the Components panel has its own icon, so you can tell them apart at a glance. Some icons are adapted from MetaCell's PsyNeuLinkView, used with permission; the rest are new.
+
+Help
+- A Help menu lists every keyboard shortcut, marks any you've changed from the default, and links to Settings > Keyboard shortcuts to change them. Help > Keyboard Shortcuts in the Mac app's menu bar opens the same list.
+
 ## PsyNeuView 0.6.12
 
 _Released 2026-11-18 · [`v0.6.12`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.12)_
