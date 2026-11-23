@@ -9,6 +9,44 @@ message when a version is cut.
 
 Downloads for every version: https://github.com/jonhanke-nam/PsyNeuView-releases/releases
 
+## PsyNeuView 0.6.14
+
+_Released 2026-11-23 · [`v0.6.14`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.14)_
+
+This release carries PsyNeuView 0.6.16.
+
+Drawing connections
+- Drag from a control mechanism to a mechanism, and choose the parameter it controls. Drag from a gating mechanism, and choose the port it gates. Drag a learning mechanism onto an arrow, and it trains that arrow.
+- While you drag, the places you can drop pulse with a teal glow, and the one under the pointer holds steady. With Reduce Motion on, the glow doesn't pulse.
+- The line you drag looks like an arrow being drawn.
+- A click on a node never adds a connection; only a drag does.
+
+Shaping arrows
+- Select a smooth arrow to see handles at its ends and bends, as in Illustrator: drag a handle to shape the curve, or a bend to move it. Double-click a handle to let the curve choose again. Each drag is one Undo step, the arrow's menu has Reset shape, and shapes are saved with the layout.
+- Smooth curves are softer by default. Arrows already shaped in a saved layout keep their curve until you reset them.
+
+Colours
+- Node role colours match PsyNeuLink's show_graph exactly, including learning orange and probe pink.
+- Component colours that were too pale to see on the Components panel are darker.
+
+A cleaner look
+- The toolbar's buttons are all one height.
+- Code is shown in SF Mono.
+- The Scheduler's text-size buttons match the Inspector's.
+- Right-click menus near the window's edge open inwards, so the whole menu stays in view.
+- The diagnostics bar is grey for information and amber only for warnings.
+- Menus and buttons use a single "…" character.
+- Settings… is no longer in the Layout menu; the gear and Command-comma open it.
+- The Inspector's "customized · at default" legend shows only when something is customized.
+- The Run panel's controls are all one height.
+
+Files and windows
+- With two models open from the same folder, both are watched for changes made in other programs. If a model can't be watched, its window says so.
+- A window opening or closing while others update no longer interrupts the "who else is here" list.
+
+Tutorials
+- Every tutorial and guide picture now shows the app as it looks today.
+
 ## PsyNeuView 0.6.13
 
 _Released 2026-11-22 · [`v0.6.13`](https://github.com/jonhanke-nam/PsyNeuView-releases/releases/tag/v0.6.13)_
