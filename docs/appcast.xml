@@ -7,6 +7,53 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.14-rc2</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.16.</p>
+<p>Drawing connections</p>
+<ul>
+<li>Drag from a control mechanism to a mechanism, and choose the parameter it controls. Drag from a gating mechanism, and choose the port it gates. Drag a learning mechanism onto an arrow, and it trains that arrow.</li>
+<li>While you drag, the places you can drop pulse with a teal glow, and the one under the pointer holds steady. With Reduce Motion on, the glow doesn&#x27;t pulse.</li>
+<li>The line you drag looks like an arrow being drawn.</li>
+</ul>
+<p>Shaping arrows</p>
+<ul>
+<li>Select a smooth arrow to see handles at its ends and bends, as in Illustrator: drag a handle to shape the curve, or a bend to move it. Double-click a handle to let the curve choose again. Each drag is one Undo step, the arrow&#x27;s menu has Reset shape, and shapes are saved with the layout.</li>
+<li>Smooth curves are softer by default. Arrows already shaped in a saved layout keep their curve until you reset them.</li>
+</ul>
+<p>Colours</p>
+<ul>
+<li>Node role colours match PsyNeuLink&#x27;s show_graph exactly, including learning orange and probe pink.</li>
+<li>Component colours that were too pale to see on the Components panel are darker.</li>
+</ul>
+<p>A cleaner look</p>
+<ul>
+<li>The toolbar&#x27;s buttons are all one height.</li>
+<li>Code is shown in SF Mono.</li>
+<li>The Scheduler&#x27;s text-size buttons match the Inspector&#x27;s.</li>
+<li>Right-click menus near the window&#x27;s edge open inwards, so the whole menu stays in view.</li>
+</ul>
+<p>Files and windows</p>
+<ul>
+<li>With two models open from the same folder, both are watched for changes made in other programs. If a model can&#x27;t be watched, its window says so.</li>
+<li>A window opening or closing while others update no longer interrupts the &quot;who else is here&quot; list.</li>
+</ul>
+<p>Tutorials</p>
+<ul>
+<li>Every tutorial and guide picture now shows the app as it looks today.</li>
+</ul>
+            ]]></description>
+            <pubDate>Mon, 23 Nov 2026 09:00:27 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.14rc2</sparkle:version>
+            <sparkle:shortVersionString>0.6.14-rc2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.14-rc2/PsyNeuView-0.6.14-rc2.dmg"
+                       length="67885698"
+                       type="application/octet-stream"
+                       sparkle:edSignature="yoaZsvAw1S8SsKylCE59UXewT+R++NRtnvv+OEn4ZDN9D4VRVjsonFm+gc2aI5K3RtySycvHwtd+W+gEiN3uDw==" />
+        </item>
+        <item>
             <title>Version 0.6.14-rc1</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.16.</p>
