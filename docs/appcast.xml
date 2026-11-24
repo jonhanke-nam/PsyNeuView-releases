@@ -7,6 +7,47 @@
         <language>en</language>
         <!-- New releases are prepended here by scripts/update-appcast.sh -->
         <item>
+            <title>Version 0.6.15-rc1</title>
+            <description><![CDATA[
+<p>This release carries PsyNeuView 0.6.17.</p>
+<p>Run / Debug</p>
+<ul>
+<li>Each trial&#x27;s input is typed and shown as an array, the way PsyNeuLink takes it: [0, 1]. A wrong length or a non-number is highlighted. The old one-cell-per-number grid is still there as a setting.</li>
+<li>Inputs are arranged by trial by default (&quot;Arrange inputs: By trial | By node&quot;). If you had chosen By node, you keep it.</li>
+<li>The Backend choice is now called Execution mode, and Python no longer says &quot;(graph)&quot;.</li>
+<li>Each trial shows how long it took, beside its number: &quot;Trial 3 · 0.41 s&quot;.</li>
+<li>After you edit the model, earlier results say so: &quot;These results are from an earlier version of the model&quot;, with a Run again button. Choosing another composition does the same. Undo back to the version you ran, or choose the composition again, and they are current again. Switching model clears them.</li>
+<li>One pale-blue selection colour marks the current trial and what&#x27;s selected, so it no longer looks like an input node&#x27;s green. &quot;Δ diff&quot; is now Show Δ, &quot;Raw data&quot; is now Results table, and each node&#x27;s per-trial rows carry its colour.</li>
+<li>The ⏵⏵ button now reads Auto-play (Pause while playing), with its speed labelled.</li>
+</ul>
+<ul>
+<li>An input node with several ports gets one field per port, labelled by name, with the whole input shown as Composition.run takes it.</li>
+</ul>
+<p>The graph</p>
+<ul>
+<li>Folding a composition in EGO&#x27;s flattened or PyTorch view keeps the Like show_graph layout.</li>
+<li>Adding a component no longer re-fits the whole graph: the view stays still and the new node is centred where you click. Fit stays a separate action.</li>
+<li>A double-clicked (expanded) node grows to fit its text inside its shape, at every Text size, and double-click now expands nodes in automatic layouts too.</li>
+<li>Picking a function in the Components panel makes the mechanisms that can take it glow; clicking one sets its function, as one Undo step. Clicking empty canvas explains what to do, and a function is never written into the code on its own.</li>
+<li>The Components panel opens as the icon strip by default.</li>
+</ul>
+<p>Logs and updates</p>
+<ul>
+<li>The Logs window shows whole lines (no more fragments), labels installer output &quot;Installer&quot;, and shows a package list as one summary row; the saved log keeps every line.</li>
+<li>The app checks for updates every time it opens, and installs them when you quit (new installs).</li>
+</ul>
+            ]]></description>
+            <pubDate>Tue, 24 Nov 2026 15:22:44 +0000</pubDate>
+            <sparkle:channel>candidates</sparkle:channel>
+            <sparkle:version>0.6.15rc1</sparkle:version>
+            <sparkle:shortVersionString>0.6.15-rc1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/jonhanke-nam/PsyNeuView-releases/releases/download/v0.6.15-rc1/PsyNeuView-0.6.15-rc1.dmg"
+                       length="67913351"
+                       type="application/octet-stream"
+                       sparkle:edSignature="IeqxE0jEF/bhDr5Vgqtpf/2OI8bIm/o45vE+olywUiRRTXwXMqpi5kEQS78g8vldF/uLpAPZT3ThBcX7lHkmAA==" />
+        </item>
+        <item>
             <title>Version 0.6.14</title>
             <description><![CDATA[
 <p>This release carries PsyNeuView 0.6.16.</p>
